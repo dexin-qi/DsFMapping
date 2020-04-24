@@ -3,34 +3,45 @@
 #### Description
 Mapping algorithm using dense feature in environment.
 
-#### Software Architecture
-Software architecture description
+![image alt text](docs/DsFMapping.png)
 
-#### Installation
+This is a new robot mapping, localization method through dense feature (for exameple: laser reflector/ corner...). For a long time, the robot localization & mapping problem is like the iron throne of "GoT", and I hope my method will be Brandon Stack!
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```
+╦ ╦┬┌┐┌┌┬┐┌─┐┬─┐  ┬┌─┐  ╔═╗┌─┐┌┬┐┬┌┐┌┌─┐
+║║║││││ │ ├┤ ├┬┘  │└─┐  ║  │ │││││││││ ┬
+╚╩╝┴┘└┘ ┴ └─┘┴└─  ┴└─┘  ╚═╝└─┘┴ ┴┴┘└┘└─┘
+```
+"Winter is Coming" --- GoT
 
-#### Instructions
+Welcome to DsFMapping's GitHub page!
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+For business and partnership, please visit [the author's website](http://me.dustinksi.cn).
 
-#### Contribution
+## Table of Contents
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+1. [Getting Started](#getting-started)
+2. [Installation](#Installation)
 
+## Getting Started
 
-#### Gitee Feature
+## Installation
+```bash
+cd your/ros_project/path
+cd src
+git clone https://gitee.com/dustinksi/DSFMapping.git --depth=1 && cd .. 
+catkin_make -j1
+```
+ATTENTION: if your abseil library is not at correct version, VEnus may not work well.
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## Questions
+
+You are welcome to submit questions and bug reports as [GitHub Issues](https://gitee.com/dustinksi/DSFMapping/issues).
+
+## Copyright and License
+
+VEnus is provided under the [Apache-2.0 license](https://gitee.com/dustinksi/DSFMapping/blob/master/LICENSE).
+ 
+## Connect with me
+* [Have suggestions for our GitHub page?](https://gitee.com/dustinksi/DSFMapping/issues)
+* Interested in our turnKey solutions or partnering with us Mail me at: [dustinksi@126.com](mailto:dustinksi@126.com)
