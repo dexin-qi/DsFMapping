@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_ds_f_mapping_1_1common_1_1utils_1_1_factory" kind="class" language="C++" prot="public">
+    <compoundname>DsFMapping::common::utils::Factory</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>IdentifierType</declname>
+        <defname>IdentifierType</defname>
+      </param>
+      <param>
+        <type>class</type>
+        <declname>AbstractProduct</declname>
+        <defname>AbstractProduct</defname>
+      </param>
+      <param>
+        <type>class</type>
+        <declname>ProductCreator</declname>
+        <defname>ProductCreator</defname>
+        <defval>AbstractProduct *(*)()</defval>
+      </param>
+      <param>
+        <type>class</type>
+        <declname>MapContainer</declname>
+        <defname>MapContainer</defname>
+        <defval>std::map&lt;IdentifierType, ProductCreator&gt;</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a2ff2f9872181af83748239b7a58936c4" prot="private" static="no" mutable="no">
+        <type>MapContainer</type>
+        <definition>MapContainer DsFMapping::common::utils::Factory&lt; IdentifierType, AbstractProduct, ProductCreator, MapContainer &gt;::producers_</definition>
+        <argsstring></argsstring>
+        <name>producers_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" line="88" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a9cd85e6f5ba674c3aceec1d7014d459b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DsFMapping::common::utils::Factory&lt; IdentifierType, AbstractProduct, ProductCreator, MapContainer &gt;::Register</definition>
+        <argsstring>(const IdentifierType &amp;id, ProductCreator creator)</argsstring>
+        <name>Register</name>
+        <param>
+          <type>const IdentifierType &amp;</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>ProductCreator</type>
+          <declname>creator</declname>
+        </param>
+        <briefdescription>
+<para>Registers the class given by the creator function, linking it to id. </para>        </briefdescription>
+        <detaileddescription>
+<para>Registration must happen prior to calling CreateObject. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identifier of the class being registered </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>creator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function returning a pointer to an instance of the registered class </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True iff the key id is still available </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" line="42" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a4a6f7bd24c05bf05f2ed995219825c15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DsFMapping::common::utils::Factory&lt; IdentifierType, AbstractProduct, ProductCreator, MapContainer &gt;::Contains</definition>
+        <argsstring>(const IdentifierType &amp;id)</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>const IdentifierType &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" line="46" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a99f5d48828f9c879a43d2a2f527cbc99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DsFMapping::common::utils::Factory&lt; IdentifierType, AbstractProduct, ProductCreator, MapContainer &gt;::Unregister</definition>
+        <argsstring>(const IdentifierType &amp;id)</argsstring>
+        <name>Unregister</name>
+        <param>
+          <type>const IdentifierType &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Unregisters the class with the given identifier. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The identifier of the class to be unregistered </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" line="52" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1aacff50cb8d1541ebd6a23484559c304d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DsFMapping::common::utils::Factory&lt; IdentifierType, AbstractProduct, ProductCreator, MapContainer &gt;::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" line="54" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a97012d2c3ae4d230039e53df1d86a9f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DsFMapping::common::utils::Factory&lt; IdentifierType, AbstractProduct, ProductCreator, MapContainer &gt;::Empty</definition>
+        <argsstring>() const </argsstring>
+        <name>Empty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" line="56" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1af5d55081b3a25d5bcf1ded7396d60d76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>std::unique_ptr&lt; AbstractProduct &gt;</type>
+        <definition>std::unique_ptr&lt;AbstractProduct&gt; DsFMapping::common::utils::Factory&lt; IdentifierType, AbstractProduct, ProductCreator, MapContainer &gt;::CreateObjectOrNull</definition>
+        <argsstring>(const IdentifierType &amp;id, Args &amp;&amp;...args)</argsstring>
+        <name>CreateObjectOrNull</name>
+        <param>
+          <type>const IdentifierType &amp;</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Creates and transfers membership of an object of type matching id. </para>        </briefdescription>
+        <detaileddescription>
+<para>Need to register id before CreateObject is called. May return nullptr silently. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The identifier of the class we which to instantiate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the object construction arguments </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" line="66" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1ae5358622bda3702411ec0f8a021ef9a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>std::unique_ptr&lt; AbstractProduct &gt;</type>
+        <definition>std::unique_ptr&lt;AbstractProduct&gt; DsFMapping::common::utils::Factory&lt; IdentifierType, AbstractProduct, ProductCreator, MapContainer &gt;::CreateObject</definition>
+        <argsstring>(const IdentifierType &amp;id, Args &amp;&amp;...args)</argsstring>
+        <name>CreateObject</name>
+        <param>
+          <type>const IdentifierType &amp;</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Creates and transfers membership of an object of type matching id. </para>        </briefdescription>
+        <detaileddescription>
+<para>Need to register id before CreateObject is called. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The identifier of the class we which to instantiate </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the object construction arguments </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" line="81" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" bodystart="81" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" line="32" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h" bodystart="32" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1aacff50cb8d1541ebd6a23484559c304d" prot="public" virt="non-virtual"><scope>DsFMapping::common::utils::Factory</scope><name>Clear</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a4a6f7bd24c05bf05f2ed995219825c15" prot="public" virt="non-virtual"><scope>DsFMapping::common::utils::Factory</scope><name>Contains</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1ae5358622bda3702411ec0f8a021ef9a0" prot="public" virt="non-virtual"><scope>DsFMapping::common::utils::Factory</scope><name>CreateObject</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1af5d55081b3a25d5bcf1ded7396d60d76" prot="public" virt="non-virtual"><scope>DsFMapping::common::utils::Factory</scope><name>CreateObjectOrNull</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a97012d2c3ae4d230039e53df1d86a9f4" prot="public" virt="non-virtual"><scope>DsFMapping::common::utils::Factory</scope><name>Empty</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a2ff2f9872181af83748239b7a58936c4" prot="private" virt="non-virtual"><scope>DsFMapping::common::utils::Factory</scope><name>producers_</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a9cd85e6f5ba674c3aceec1d7014d459b" prot="public" virt="non-virtual"><scope>DsFMapping::common::utils::Factory</scope><name>Register</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a99f5d48828f9c879a43d2a2f527cbc99" prot="public" virt="non-virtual"><scope>DsFMapping::common::utils::Factory</scope><name>Unregister</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

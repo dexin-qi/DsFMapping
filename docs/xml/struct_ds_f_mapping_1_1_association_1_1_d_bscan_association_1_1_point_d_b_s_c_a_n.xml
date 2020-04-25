@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n" kind="struct" language="C++" prot="private">
+    <compoundname>DsFMapping::Association::DBscanAssociation::PointDBSCAN</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1a91218c848bc27ebe8db30e25bf093d61" prot="public" static="no" mutable="no">
+        <type>PointStatus</type>
+        <definition>PointStatus DsFMapping::Association::DBscanAssociation::PointDBSCAN::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h" line="35" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1a857cf7e98c8cddef6f7bfc09b88f0c3d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DsFMapping::Association::DBscanAssociation::PointDBSCAN::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h" line="36" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1a60db508077e67f7df5901dd35056f34f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DsFMapping::Association::DBscanAssociation::PointDBSCAN::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h" line="37" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1a1dc070a3d29c8dd5b1eae6014cf11b86" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DsFMapping::Association::DBscanAssociation::PointDBSCAN::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h" line="38" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1af0884701d018a88d6843e2816fed3d2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::Association::DBscanAssociation::PointDBSCAN::PointDBSCAN</definition>
+        <argsstring>(double px, double py)</argsstring>
+        <name>PointDBSCAN</name>
+        <param>
+          <type>double</type>
+          <declname>px</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>py</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h" line="40" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h" bodystart="40" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h" line="34" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h" bodystart="34" bodyend="46"/>
+    <listofallmembers>
+      <member refid="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1a857cf7e98c8cddef6f7bfc09b88f0c3d" prot="public" virt="non-virtual"><scope>DsFMapping::Association::DBscanAssociation::PointDBSCAN</scope><name>id</name></member>
+      <member refid="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1af0884701d018a88d6843e2816fed3d2b" prot="public" virt="non-virtual"><scope>DsFMapping::Association::DBscanAssociation::PointDBSCAN</scope><name>PointDBSCAN</name></member>
+      <member refid="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1a91218c848bc27ebe8db30e25bf093d61" prot="public" virt="non-virtual"><scope>DsFMapping::Association::DBscanAssociation::PointDBSCAN</scope><name>status</name></member>
+      <member refid="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1a60db508077e67f7df5901dd35056f34f" prot="public" virt="non-virtual"><scope>DsFMapping::Association::DBscanAssociation::PointDBSCAN</scope><name>x</name></member>
+      <member refid="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1a1dc070a3d29c8dd5b1eae6014cf11b86" prot="public" virt="non-virtual"><scope>DsFMapping::Association::DBscanAssociation::PointDBSCAN</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

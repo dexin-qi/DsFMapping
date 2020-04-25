@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_353e62e7e775c8c13a770fa04d601242" kind="dir">
+    <compoundname>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association</compoundname>
+    <innerdir refid="dir_b1ebf7982f2b35c66c055ae82e7a5467">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association</innerdir>
+    <innerdir refid="dir_d70d0a7f36f15dd6edd993c5b018a143">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association</innerdir>
+    <innerdir refid="dir_745056340e99b72d044dc49e465f95d7">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface</innerdir>
+    <innerfile refid="association__factory_8h">association_factory.h</innerfile>
+    <innerfile refid="association__options__phrase_8h">association_options_phrase.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/"/>
+  </compounddef>
+</doxygen>

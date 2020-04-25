@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_8c2e9fe2173dae940278f4abe76fd4fb" kind="dir">
+    <compoundname>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common</compoundname>
+    <innerdir refid="dir_f4887a30dff0e7f16cec3bfd379711f9">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils</innerdir>
+    <innerfile refid="config__file__resolver_8h">config_file_resolver.h</innerfile>
+    <innerfile refid="dustin__log_8h">dustin_log.h</innerfile>
+    <innerfile refid="lua__param__dictionary_8h">lua_param_dictionary.h</innerfile>
+    <innerfile refid="math_8h">math.h</innerfile>
+    <innerfile refid="port_8h">port.h</innerfile>
+    <innerfile refid="time_8h">time.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/"/>
+  </compounddef>
+</doxygen>

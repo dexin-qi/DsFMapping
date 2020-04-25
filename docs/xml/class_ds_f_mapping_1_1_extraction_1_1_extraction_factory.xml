@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_ds_f_mapping_1_1_extraction_1_1_extraction_factory" kind="class" language="C++" prot="public">
+    <compoundname>DsFMapping::Extraction::ExtractionFactory</compoundname>
+    <basecompoundref refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory" prot="public" virt="non-virtual">DsFMapping::common::utils::Factory&lt; ExtractionBrand, AbstractExtraction &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_extraction_1_1_extraction_factory_1ae1acbb4b75622b4c96f5f46e5f9a72de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DsFMapping::Extraction::ExtractionFactory::RegisterExtractionFactory</definition>
+        <argsstring>()</argsstring>
+        <name>RegisterExtractionFactory</name>
+        <briefdescription>
+<para>Regist Extraction instance handler to Factory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_factory.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_extraction_1_1_extraction_factory_1a0b6fec391ae5b09fe22597cd03e667b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction" kindref="compound">AbstractExtraction</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;AbstractExtraction&gt; DsFMapping::Extraction::ExtractionFactory::CreateExtraction</definition>
+        <argsstring>(const ExtractionOptions &amp;options)</argsstring>
+        <name>CreateExtraction</name>
+        <param>
+          <type>const ExtractionOptions &amp;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>Creates an <ref refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction" kindref="compound">AbstractExtraction</ref> object based on ExtractionOptions. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is defined in extraction_options.proto </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_factory.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="76">
+        <label>DsFMapping::common::utils::Factory&lt; ExtractionBrand, AbstractExtraction &gt;</label>
+        <link refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory"/>
+      </node>
+      <node id="75">
+        <label>DsFMapping::Extraction::ExtractionFactory</label>
+        <link refid="class_ds_f_mapping_1_1_extraction_1_1_extraction_factory"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="78">
+        <label>DsFMapping::common::utils::Factory&lt; ExtractionBrand, AbstractExtraction &gt;</label>
+        <link refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory"/>
+      </node>
+      <node id="77">
+        <label>DsFMapping::Extraction::ExtractionFactory</label>
+        <link refid="class_ds_f_mapping_1_1_extraction_1_1_extraction_factory"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_factory.h" line="28" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_factory.h" bodystart="26" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1aacff50cb8d1541ebd6a23484559c304d" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::ExtractionFactory</scope><name>Clear</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a4a6f7bd24c05bf05f2ed995219825c15" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::ExtractionFactory</scope><name>Contains</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_extraction_factory_1a0b6fec391ae5b09fe22597cd03e667b5" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::ExtractionFactory</scope><name>CreateExtraction</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1ae5358622bda3702411ec0f8a021ef9a0" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::ExtractionFactory</scope><name>CreateObject</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1af5d55081b3a25d5bcf1ded7396d60d76" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::ExtractionFactory</scope><name>CreateObjectOrNull</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a97012d2c3ae4d230039e53df1d86a9f4" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::ExtractionFactory</scope><name>Empty</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a9cd85e6f5ba674c3aceec1d7014d459b" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::ExtractionFactory</scope><name>Register</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_extraction_factory_1ae1acbb4b75622b4c96f5f46e5f9a72de" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::ExtractionFactory</scope><name>RegisterExtractionFactory</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a99f5d48828f9c879a43d2a2f527cbc99" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::ExtractionFactory</scope><name>Unregister</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

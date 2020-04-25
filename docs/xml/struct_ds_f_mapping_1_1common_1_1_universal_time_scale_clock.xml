@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock" kind="struct" language="C++" prot="public">
+    <compoundname>DsFMapping::common::UniversalTimeScaleClock</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1a91efe98cdd07ca529899d6852d2473aa" prot="public" static="no">
+        <type>int64</type>
+        <definition>using DsFMapping::common::UniversalTimeScaleClock::rep =  int64</definition>
+        <argsstring></argsstring>
+        <name>rep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h" line="31" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1a878e73ed9daadba701e6aa75958dfdc4" prot="public" static="no">
+        <type>std::ratio&lt; 1, 10000000 &gt;</type>
+        <definition>using DsFMapping::common::UniversalTimeScaleClock::period =  std::ratio&lt;1, 10000000&gt;</definition>
+        <argsstring></argsstring>
+        <name>period</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h" line="32" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1a318edca78dee48af43ef802adf17e15d" prot="public" static="no">
+        <type>std::chrono::duration&lt; rep, period &gt;</type>
+        <definition>using DsFMapping::common::UniversalTimeScaleClock::duration =  std::chrono::duration&lt;rep, period&gt;</definition>
+        <argsstring></argsstring>
+        <name>duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h" line="33" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1a91e8b843bd6f150abe2dc75e0056be28" prot="public" static="no">
+        <type>std::chrono::time_point&lt; <ref refid="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock" kindref="compound">UniversalTimeScaleClock</ref> &gt;</type>
+        <definition>using DsFMapping::common::UniversalTimeScaleClock::time_point =  std::chrono::time_point&lt;UniversalTimeScaleClock&gt;</definition>
+        <argsstring></argsstring>
+        <name>time_point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h" line="34" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1ad301e244a5f0b9d22c0099861ec32408" prot="public" static="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool DsFMapping::common::UniversalTimeScaleClock::is_steady</definition>
+        <argsstring></argsstring>
+        <name>is_steady</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h" line="35" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h" line="30" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h" bodystart="30" bodyend="36"/>
+    <listofallmembers>
+      <member refid="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1a318edca78dee48af43ef802adf17e15d" prot="public" virt="non-virtual"><scope>DsFMapping::common::UniversalTimeScaleClock</scope><name>duration</name></member>
+      <member refid="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1ad301e244a5f0b9d22c0099861ec32408" prot="public" virt="non-virtual"><scope>DsFMapping::common::UniversalTimeScaleClock</scope><name>is_steady</name></member>
+      <member refid="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1a878e73ed9daadba701e6aa75958dfdc4" prot="public" virt="non-virtual"><scope>DsFMapping::common::UniversalTimeScaleClock</scope><name>period</name></member>
+      <member refid="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1a91efe98cdd07ca529899d6852d2473aa" prot="public" virt="non-virtual"><scope>DsFMapping::common::UniversalTimeScaleClock</scope><name>rep</name></member>
+      <member refid="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1a91e8b843bd6f150abe2dc75e0056be28" prot="public" virt="non-virtual"><scope>DsFMapping::common::UniversalTimeScaleClock</scope><name>time_point</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

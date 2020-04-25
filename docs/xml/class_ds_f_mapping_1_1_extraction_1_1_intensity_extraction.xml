@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction" kind="class" language="C++" prot="public">
+    <compoundname>DsFMapping::Extraction::IntensityExtraction</compoundname>
+    <basecompoundref refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction" prot="public" virt="non-virtual">DsFMapping::Extraction::AbstractExtraction</basecompoundref>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction_1a95e81e686edf45fef1c30a38c2521d2d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class ExtractionFactory</definition>
+        <argsstring></argsstring>
+        <name>ExtractionFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction/intensity_extraction.h" line="41" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction/intensity_extraction.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction_1adf7a6c2f213a90909221d1dbf553061d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool DsFMapping::Extraction::IntensityExtraction::Extract</definition>
+        <argsstring>(DsFMapping::Sensor::IntensityRange2D &amp;cloud, DsFMapping::Sensor::IntensityRange2D &amp;candidate_cloud)</argsstring>
+        <name>Extract</name>
+        <reimplements refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a71e17ccb3acdf5d18898e9cf2565aaca">Extract</reimplements>
+        <param>
+          <type>DsFMapping::Sensor::IntensityRange2D &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>DsFMapping::Sensor::IntensityRange2D &amp;</type>
+          <declname>candidate_cloud</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction/intensity_extraction.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction_1a3815699d82dd9462b4bd1a3108e190e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::Extraction::IntensityExtraction::~IntensityExtraction</definition>
+        <argsstring>()</argsstring>
+        <name>~IntensityExtraction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction/intensity_extraction.h" line="38" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction/intensity_extraction.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction_1aaa0856bd90c40546ed72bcca6b5ae696" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::Extraction::IntensityExtraction::IntensityExtraction</definition>
+        <argsstring>()</argsstring>
+        <name>IntensityExtraction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction/intensity_extraction.h" line="42" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction/intensity_extraction.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="85">
+        <label>DsFMapping::Extraction::AbstractExtraction</label>
+        <link refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction"/>
+      </node>
+      <node id="84">
+        <label>DsFMapping::Extraction::IntensityExtraction</label>
+        <link refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="87">
+        <label>DsFMapping::Extraction::AbstractExtraction</label>
+        <link refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction"/>
+      </node>
+      <node id="86">
+        <label>DsFMapping::Extraction::IntensityExtraction</label>
+        <link refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction/intensity_extraction.h" line="34" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction/intensity_extraction.h" bodystart="34" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1ad7f998d9468e43ff774a6beaf4dfc23f" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::IntensityExtraction</scope><name>_options</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a68bcaff6f876d7766cac70aa17fa7f79" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::IntensityExtraction</scope><name>AbstractExtraction</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction_1adf7a6c2f213a90909221d1dbf553061d" prot="public" virt="virtual"><scope>DsFMapping::Extraction::IntensityExtraction</scope><name>Extract</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction_1a95e81e686edf45fef1c30a38c2521d2d" prot="private" virt="non-virtual"><scope>DsFMapping::Extraction::IntensityExtraction</scope><name>ExtractionFactory</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction_1aaa0856bd90c40546ed72bcca6b5ae696" prot="private" virt="non-virtual"><scope>DsFMapping::Extraction::IntensityExtraction</scope><name>IntensityExtraction</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a592f0736b7de23a9e19dbf9082374059" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::IntensityExtraction</scope><name>SetExtractionOptions</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1ab6d8a5bd9f5cdc32d0e99adad640e068" prot="public" virt="virtual"><scope>DsFMapping::Extraction::IntensityExtraction</scope><name>~AbstractExtraction</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction_1a3815699d82dd9462b4bd1a3108e190e1" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::IntensityExtraction</scope><name>~IntensityExtraction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

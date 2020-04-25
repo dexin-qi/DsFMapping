@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="class_ds_f_mapping_1_1_association_1_1_abstract_association" kind="class"><name>DsFMapping::Association::AbstractAssociation</name>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a6941fe7661b7fed5586b0a2cbe533d2f" kind="variable"><name>_options</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1ad0877be23ceed09ea53d99a6c6a7de76" kind="function"><name>AbstractAssociation</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a0f5b336613059b012959316a5950cdc0" kind="function"><name>~AbstractAssociation</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a6fd7d005a75dd803d01b2083a1eec912" kind="function"><name>Init</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a5deb1347e659dd780f37685e247ea378" kind="function"><name>Association</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a8520ab94b66b153518c0a72e047c2e15" kind="function"><name>SetAssocoiationOptions</name></member>
+  </compound>
+  <compound refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction" kind="class"><name>DsFMapping::Extraction::AbstractExtraction</name>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1ad7f998d9468e43ff774a6beaf4dfc23f" kind="variable"><name>_options</name></member>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a68bcaff6f876d7766cac70aa17fa7f79" kind="function"><name>AbstractExtraction</name></member>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1ab6d8a5bd9f5cdc32d0e99adad640e068" kind="function"><name>~AbstractExtraction</name></member>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a71e17ccb3acdf5d18898e9cf2565aaca" kind="function"><name>Extract</name></member>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a592f0736b7de23a9e19dbf9082374059" kind="function"><name>SetExtractionOptions</name></member>
+  </compound>
+  <compound refid="class_ds_f_mapping_1_1_association_1_1_association_factory" kind="class"><name>DsFMapping::Association::AssociationFactory</name>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_association_factory_1ac3d4e884d428fb0831a3f9a559e2eefd" kind="function"><name>RegisterAssociationFactory</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_association_factory_1ad4ee798c6cef85081e377697c8349df4" kind="function"><name>CreateAssociation</name></member>
+  </compound>
+  <compound refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver" kind="class"><name>DsFMapping::common::ConfigurationFileResolver</name>
+    <member refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1aab26337b786df9721b275a4cca69208d" kind="variable"><name>configuration_files_directories_</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1a0c90cefc34f13917b1f5a016c8c9ce90" kind="function"><name>ConfigurationFileResolver</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1a075a029c9d46036def797c52c2e08fb0" kind="function"><name>GetFullPathOrDie</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1a545cafb96ea9a748a44c24a77bf15965" kind="function"><name>GetFileContentOrDie</name></member>
+  </compound>
+  <compound refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction" kind="class"><name>DsFMapping::Extraction::CornerExtraction</name>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction_1a95e81e686edf45fef1c30a38c2521d2d" kind="friend"><name>ExtractionFactory</name></member>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction_1a9680addfe14ac92409e590f61e7ada4b" kind="function"><name>Extract</name></member>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction_1a4aeca3fbfcb9b9d160a22fedf3fb1e32" kind="function"><name>~CornerExtraction</name></member>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction_1a75d1e8a47397c0efae7f139eedb3c668" kind="function"><name>CornerExtraction</name></member>
+  </compound>
+  <compound refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association" kind="class"><name>DsFMapping::Association::DBscanAssociation</name>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1a2b51b67000acdb084cbb73244802379d" kind="enum"><name>PointStatus</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1a2b51b67000acdb084cbb73244802379dad4ab511d9f95458ea7f12d01c441aadf" kind="enumvalue"><name>FAILURE</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1a2b51b67000acdb084cbb73244802379da1bbe0fd1e3d247fbf93c20def281a5e5" kind="enumvalue"><name>NOISE</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1a2b51b67000acdb084cbb73244802379da448bfef8afc178891cd046b264097744" kind="enumvalue"><name>UNCLASSIFIED</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1a2b51b67000acdb084cbb73244802379da0308d5e7eac94a996f816f86606630b0" kind="enumvalue"><name>CLASSIFIED</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1a80f265a3a8bf9d073bf7b61cbbaf50f7" kind="variable"><name>reflect_cylinder_radius</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1af713a2b6593829555fd505624425544a" kind="variable"><name>dbscan_min_points</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1a92ccddd8637aeed073f750e7c3f54b26" kind="variable"><name>dbscan_eps_radius_square</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1ad939a16b897b27968a1a94dd7a98fce9" kind="variable"><name>dataset</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1adae49a9c30ef238d786c056ba9e63883" kind="variable"><name>center_list</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1aa85b3f6082bc1edff398ad672725cfd7" kind="friend"><name>AssociationFactory</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1a0aa2fc1c926cc0bb3840b3367ea634a4" kind="function"><name>Init</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1a685c5c2f32ebe201b2ffd044d5c7294f" kind="function"><name>Association</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1ae57dc2ed3a0a6af84d7e5c0283a85d9c" kind="function"><name>merge_cluster</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1aee3b7aa64ffe6b30cad2c91efd1d27db" kind="function"><name>expand_cluster</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1ae2e0937e768aa7c034bb2a9e8cbe25f0" kind="function"><name>calculate_cluster</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1ad471dd6905382d051dba8d857e1f867e" kind="function"><name>distance_square</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1adeb465b6c52ffe4850a6710a3ec2329f" kind="function"><name>~DBscanAssociation</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1a86769ec72df94edb6274b9dc800720b4" kind="function"><name>DBscanAssociation</name></member>
+  </compound>
+  <compound refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1_1_d_s_u" kind="class"><name>DsFMapping::Association::DSUAssociation::DSU</name>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1_1_d_s_u_1a9771cdec219cbad3e1b46f814fa9b36a" kind="variable"><name>root</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1_1_d_s_u_1a4d71c9d62c60deee16e19dec4c2b022b" kind="function"><name>DSU</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1_1_d_s_u_1a394390653b22796e00557f18daf17704" kind="function"><name>find</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1_1_d_s_u_1a862f85adaf888659f5b0a8f84af3e181" kind="function"><name>merge</name></member>
+  </compound>
+  <compound refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association" kind="class"><name>DsFMapping::Association::DSUAssociation</name>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1afd4af3aa4a728a3378024cfced57f16c" kind="variable"><name>reflect_cylinder_radius</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a1620dc2b06a981c5c7c53b59acd5efe1" kind="variable"><name>dsu_merge_max_distance_square</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a22501ed7f0d01bbcdc2d53148912cf9e" kind="variable"><name>dsu_merge_min_points</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1aa460ec5cb3423fa163bb9bd2736fafba" kind="variable"><name>dataset</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1aa85b3f6082bc1edff398ad672725cfd7" kind="friend"><name>AssociationFactory</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a9b8fa92df5a2e6717064bd8cb865efbc" kind="function"><name>Init</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a3c4cfc8bfd0ebe5473d26a7173fdf55e" kind="function"><name>Association</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a903afe1317fb7bcd56834e8aa98fd2ce" kind="function"><name>result_cleanup</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a657def64a926f6e87bf124b39931b0bd" kind="function"><name>distance_square</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1ac2552476e3ecc4342da0e4cdd1d34717" kind="function"><name>~DSUAssociation</name></member>
+    <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1acb27fbb9575a0fc14146535b70017f39" kind="function"><name>DSUAssociation</name></member>
+  </compound>
+  <compound refid="class_ds_f_mapping_1_1_extraction_1_1_extraction_factory" kind="class"><name>DsFMapping::Extraction::ExtractionFactory</name>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_extraction_factory_1ae1acbb4b75622b4c96f5f46e5f9a72de" kind="function"><name>RegisterExtractionFactory</name></member>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_extraction_factory_1a0b6fec391ae5b09fe22597cd03e667b5" kind="function"><name>CreateExtraction</name></member>
+  </compound>
+  <compound refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory" kind="class"><name>DsFMapping::common::utils::Factory</name>
+    <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a2ff2f9872181af83748239b7a58936c4" kind="variable"><name>producers_</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a9cd85e6f5ba674c3aceec1d7014d459b" kind="function"><name>Register</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a4a6f7bd24c05bf05f2ed995219825c15" kind="function"><name>Contains</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a99f5d48828f9c879a43d2a2f527cbc99" kind="function"><name>Unregister</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1aacff50cb8d1541ebd6a23484559c304d" kind="function"><name>Clear</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a97012d2c3ae4d230039e53df1d86a9f4" kind="function"><name>Empty</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1af5d55081b3a25d5bcf1ded7396d60d76" kind="function"><name>CreateObjectOrNull</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1ae5358622bda3702411ec0f8a021ef9a0" kind="function"><name>CreateObject</name></member>
+  </compound>
+  <compound refid="class_ds_f_mapping_1_1common_1_1_file_resolver" kind="class"><name>DsFMapping::common::FileResolver</name>
+    <member refid="class_ds_f_mapping_1_1common_1_1_file_resolver_1a3d6f99e1e91df7debc3de8e462a63d3c" kind="function"><name>~FileResolver</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_file_resolver_1a26e7809d93236029ad0f2acf840cc119" kind="function"><name>GetFullPathOrDie</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_file_resolver_1aca45411b754a5d731f58d829d95fd6ed" kind="function"><name>GetFileContentOrDie</name></member>
+  </compound>
+  <compound refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction" kind="class"><name>DsFMapping::Extraction::IntensityExtraction</name>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction_1a95e81e686edf45fef1c30a38c2521d2d" kind="friend"><name>ExtractionFactory</name></member>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction_1adf7a6c2f213a90909221d1dbf553061d" kind="function"><name>Extract</name></member>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction_1a3815699d82dd9462b4bd1a3108e190e1" kind="function"><name>~IntensityExtraction</name></member>
+    <member refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction_1aaa0856bd90c40546ed72bcca6b5ae696" kind="function"><name>IntensityExtraction</name></member>
+  </compound>
+  <compound refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kind="class"><name>DsFMapping::common::LuaParameterDictionary</name>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1e1753d8e10ade373a114d44ef13ce5d" kind="enum"><name>ReferenceCount</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1e1753d8e10ade373a114d44ef13ce5da7469a286259799e5b37e5db9296f00b3" kind="enumvalue"><name>YES</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1e1753d8e10ade373a114d44ef13ce5dac2f3f489a00553e7a01d369c103c7251" kind="enumvalue"><name>NO</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a14a786698eb0f284767d6c28d2c52b20" kind="enum"><name>Quoted</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a14a786698eb0f284767d6c28d2c52b20a7469a286259799e5b37e5db9296f00b3" kind="enumvalue"><name>YES</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a14a786698eb0f284767d6c28d2c52b20ac2f3f489a00553e7a01d369c103c7251" kind="enumvalue"><name>NO</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aff8fb06dcaa9419f5e2e4be4c1a5371e" kind="variable"><name>L_</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ad7de958be8de528f7b7b84f90cc3d395" kind="variable"><name>index_into_reference_table_</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a106d5795702fadf579679a9a6fb32201" kind="variable"><name>file_resolver_</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1e2049aea42324cec669e269459589b5" kind="variable"><name>reference_count_</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ac5ccfeddf7a347499af110e59011cfa6" kind="variable"><name>reference_counts_</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a7654d411270c3ec45d7e2f9faee2edbc" kind="variable"><name>included_files_</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aa1891e7d555a6d7943f436bde61b0322" kind="function"><name>LuaParameterDictionary</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a53a6e61da844c7d375ef0302fc9d783b" kind="function"><name>LuaParameterDictionary</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1812035c6c9e9c3207ef7deb226a91b4" kind="function"><name>operator=</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1abf5198474a1ee474ddb50af26b3098c7" kind="function"><name>~LuaParameterDictionary</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ae6a9db06903fad076dceb2781f1b64b6" kind="function"><name>GetKeys</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a67f483091adaaed0ca8e597274e541fd" kind="function"><name>HasKey</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aeed0730d4707c10b323dd17f5a03f92a" kind="function"><name>GetString</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a0ffef7564d6fed52af0bda58d9581947" kind="function"><name>GetDouble</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1e95ca292a160813006bff90ef900d46" kind="function"><name>GetInt</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a4a2afb0a8c315871ba108bde0d31ef85" kind="function"><name>GetBool</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a153b382e0281f93637ac2a8009894299" kind="function"><name>GetDictionary</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a32b12d780af598b89951f79ee920b94b" kind="function"><name>GetNonNegativeInt</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aad501e5dfe9df163650ec2c4e0b3c3cc" kind="function"><name>ToString</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1abd041813fc1c2330a00925d30cc1546e" kind="function"><name>GetArrayValuesAsDoubles</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a0963bcbe234c6e57497ee22366c55c56" kind="function"><name>GetArrayValuesAsStrings</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a0746602257b8f58a9c52194cdb0f66f6" kind="function"><name>GetArrayValuesAsDictionaries</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aafea535986f6dc03d7d6c4af02061986" kind="function"><name>NonReferenceCounted</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ae9dd34db3d792aee758516f07de51ca1" kind="function"><name>LuaParameterDictionary</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a0fb8121912f16554c37cc81d41d7be82" kind="function"><name>LuaParameterDictionary</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a54a2cc324f2a5fe8a578d2be45d6dcbb" kind="function"><name>DoToString</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1abda55fd000ec4ad29f9ae9ec833f3c0b" kind="function"><name>PopDouble</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a60f87ecbe231baabe786b2f4ef5884c1" kind="function"><name>PopInt</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ae4ba57a5a42718f746ee7f48ea663da3" kind="function"><name>PopBool</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a379f2c67bdc685e0d728eb365dc0d757" kind="function"><name>PopString</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1acb4525ce57992d48b2a3cdbaa781b976" kind="function"><name>PopDictionary</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aebfa9ed169edc01f3217349fe0051be0" kind="function"><name>CheckHasKey</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a80aacf6a9c2c14173a4cf4e60b7af19d" kind="function"><name>CheckHasKeyAndReference</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aad6ee3ff597e311d6d4d731039ee661c" kind="function"><name>CheckAllKeysWereUsedExactlyOnceAndReset</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a028610bb6be8a9a57eb1c3025771cef3" kind="function"><name>LuaRead</name></member>
+    <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ab40b4c52cd9e192d8814a11cbfb584e0" kind="function"><name>LuaInclude</name></member>
+  </compound>
+  <compound refid="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n" kind="struct"><name>DsFMapping::Association::DBscanAssociation::PointDBSCAN</name>
+    <member refid="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1a91218c848bc27ebe8db30e25bf093d61" kind="variable"><name>status</name></member>
+    <member refid="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1a857cf7e98c8cddef6f7bfc09b88f0c3d" kind="variable"><name>id</name></member>
+    <member refid="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1a60db508077e67f7df5901dd35056f34f" kind="variable"><name>x</name></member>
+    <member refid="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1a1dc070a3d29c8dd5b1eae6014cf11b86" kind="variable"><name>y</name></member>
+    <member refid="struct_ds_f_mapping_1_1_association_1_1_d_bscan_association_1_1_point_d_b_s_c_a_n_1af0884701d018a88d6843e2816fed3d2b" kind="function"><name>PointDBSCAN</name></member>
+  </compound>
+  <compound refid="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock" kind="struct"><name>DsFMapping::common::UniversalTimeScaleClock</name>
+    <member refid="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1a91efe98cdd07ca529899d6852d2473aa" kind="typedef"><name>rep</name></member>
+    <member refid="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1a878e73ed9daadba701e6aa75958dfdc4" kind="typedef"><name>period</name></member>
+    <member refid="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1a318edca78dee48af43ef802adf17e15d" kind="typedef"><name>duration</name></member>
+    <member refid="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1a91e8b843bd6f150abe2dc75e0056be28" kind="typedef"><name>time_point</name></member>
+    <member refid="struct_ds_f_mapping_1_1common_1_1_universal_time_scale_clock_1ad301e244a5f0b9d22c0099861ec32408" kind="variable"><name>is_steady</name></member>
+  </compound>
+  <compound refid="namespace_ds_f_mapping" kind="namespace"><name>DsFMapping</name>
+    <member refid="port_8h_1aa7332eb212c5f202be0e62ed879cbfed" kind="typedef"><name>int8</name></member>
+    <member refid="port_8h_1a6c199bd9e69e380c3c5aa7bcf119d5fd" kind="typedef"><name>int16</name></member>
+    <member refid="port_8h_1abd87cb1c88f3c01724754be5b0234e24" kind="typedef"><name>int32</name></member>
+    <member refid="port_8h_1ad58f9533893127cb7f7112061263cc08" kind="typedef"><name>int64</name></member>
+    <member refid="port_8h_1ac0555ff8fb28753162390358f83049f4" kind="typedef"><name>uint8</name></member>
+    <member refid="port_8h_1ab88686ecc81588bc845ddc5a708a5009" kind="typedef"><name>uint16</name></member>
+    <member refid="port_8h_1ab1abd84dbac3b6af178c7c22af388b27" kind="typedef"><name>uint32</name></member>
+    <member refid="port_8h_1a7f8a34358446eebfef72f3d3bcac254b" kind="typedef"><name>uint64</name></member>
+  </compound>
+  <compound refid="namespace_ds_f_mapping_1_1_association" kind="namespace"><name>DsFMapping::Association</name>
+    <member refid="association__options__phrase_8h_1a6a2dd0dbfc6764c33d99ffd6cc252806" kind="typedef"><name>ParamDict</name></member>
+    <member refid="association__options__phrase_8h_1a34d172f788c95095e05b372583413ca0" kind="function"><name>CreateOptions</name></member>
+  </compound>
+  <compound refid="namespace_ds_f_mapping_1_1common" kind="namespace"><name>DsFMapping::common</name>
+    <member refid="time_8h_1ab40fd97fb03fa86688dc246110b3927f" kind="typedef"><name>Duration</name></member>
+    <member refid="time_8h_1a55fe6d895d310d49b3f26f2dffff2d4f" kind="typedef"><name>Time</name></member>
+    <member refid="time_8h_1a85b47ca8f9f34d6ee84d6c65e0a21e94" kind="variable"><name>kUtsEpochOffsetFromUnixEpochInSeconds</name></member>
+    <member refid="math_8h_1ac444107258c87f4e94f5c6ac9ebb4f44" kind="function"><name>Clamp</name></member>
+    <member refid="math_8h_1a163f7bc0814d63d30d9cd5256e32f6bf" kind="function"><name>Power</name></member>
+    <member refid="math_8h_1a44485da8f5cdc9249c2dc322d800490c" kind="function"><name>Pow2</name></member>
+    <member refid="math_8h_1a034bf3f8e4c9eb73ecbd6efd991d7201" kind="function"><name>DegToRad</name></member>
+    <member refid="math_8h_1a1428310790e5edc71988267d624e0854" kind="function"><name>RadToDeg</name></member>
+    <member refid="math_8h_1a1523cebd904510d20ae48713a3570e54" kind="function"><name>NormalizeAngleDifference</name></member>
+    <member refid="math_8h_1a06e83263ee5230e3319a42fb1058178d" kind="function"><name>atan2</name></member>
+    <member refid="math_8h_1ae6bdaf301b80e945524a8ec4c7030190" kind="function"><name>QuaternionProduct</name></member>
+    <member refid="port_8h_1a70ff5f7051033db308cdf478427af078" kind="function"><name>RoundToInt</name></member>
+    <member refid="port_8h_1af6969223d3f370ce5427956488082b0a" kind="function"><name>RoundToInt</name></member>
+    <member refid="port_8h_1a4ff18fc0d45c1ea91b9cfd2253cee569" kind="function"><name>RoundToInt64</name></member>
+    <member refid="port_8h_1a775f68bc97e9099279d032bbd59a47bc" kind="function"><name>RoundToInt64</name></member>
+    <member refid="port_8h_1a26c0ca4fa3d99e75c2694bbcefc2e593" kind="function"><name>FastGzipString</name></member>
+    <member refid="port_8h_1afcbd24b2309bc0adeb7b18ec0a4efcbf" kind="function"><name>FastGunzipString</name></member>
+    <member refid="time_8h_1a3b9dc8787e8e1ff91d610f9c0f13a5e4" kind="function"><name>FromSeconds</name></member>
+    <member refid="time_8h_1af054b775b868b3d962f448be69f6a055" kind="function"><name>FromMilliseconds</name></member>
+    <member refid="time_8h_1a3bf18c0b2d024ab2478795b5ab77b028" kind="function"><name>ToSeconds</name></member>
+    <member refid="time_8h_1aaaec5c6170e7092fadbf1713fe65ace1" kind="function"><name>ToSeconds</name></member>
+    <member refid="time_8h_1ab62e9e6e4d0135abcd01eabc26ffadd4" kind="function"><name>FromUniversal</name></member>
+    <member refid="time_8h_1a60a32cfd41fa35aa79f92e22a79771f2" kind="function"><name>ToUniversal</name></member>
+    <member refid="time_8h_1a40d45520ac6f9c01ec71cfd35accb88f" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="time_8h_1ad3a1f5dab83cac55adb5a2171a47153d" kind="function"><name>GetThreadCpuTimeSeconds</name></member>
+  </compound>
+  <compound refid="namespace_ds_f_mapping_1_1common_1_1utils" kind="namespace"><name>DsFMapping::common::utils</name>
+  </compound>
+  <compound refid="namespace_ds_f_mapping_1_1_extraction" kind="namespace"><name>DsFMapping::Extraction</name>
+    <member refid="extraction__options__phrase_8h_1acf21b38b76b05e6a8abccce609735aeb" kind="typedef"><name>ParamDict</name></member>
+    <member refid="extraction__options__phrase_8h_1a9a26e58bc35b67b1daeeff8112b459b8" kind="function"><name>CreateOptions</name></member>
+  </compound>
+  <compound refid="association__factory_8h" kind="file"><name>association_factory.h</name>
+  </compound>
+  <compound refid="association__options__phrase_8h" kind="file"><name>association_options_phrase.h</name>
+  </compound>
+  <compound refid="dbscan__association_8h" kind="file"><name>dbscan_association.h</name>
+  </compound>
+  <compound refid="dsu__association_8h" kind="file"><name>dsu_association.h</name>
+  </compound>
+  <compound refid="abstract__association_8h" kind="file"><name>abstract_association.h</name>
+  </compound>
+  <compound refid="config__file__resolver_8h" kind="file"><name>config_file_resolver.h</name>
+  </compound>
+  <compound refid="dustin__log_8h" kind="file"><name>dustin_log.h</name>
+    <member refid="dustin__log_8h_1a61818a4c2cf85e96d77e6e46ca4ea853" kind="define"><name>D_INFO</name></member>
+    <member refid="dustin__log_8h_1a4ea9b180794130cfc4e36284bb09032d" kind="define"><name>D_WARN</name></member>
+    <member refid="dustin__log_8h_1af25fefaf5c55ce92d41da370dc9399c2" kind="define"><name>D_ERROR</name></member>
+    <member refid="dustin__log_8h_1ae9f358593b7632d052172d55065c945e" kind="define"><name>D_FATAL</name></member>
+    <member refid="dustin__log_8h_1a8790570c4564edde2f80426c7d9ab4d1" kind="define"><name>BASHR</name></member>
+    <member refid="dustin__log_8h_1a5fcc98f62c2d28674ef1c02e76a4b184" kind="define"><name>BASHG</name></member>
+    <member refid="dustin__log_8h_1acc3cc9f0cd777833c9a0bd5b612bf386" kind="define"><name>BASHY</name></member>
+    <member refid="dustin__log_8h_1a73ae3d8f3eb742c21f5c5ba9fe446cc9" kind="define"><name>BASHB</name></member>
+    <member refid="dustin__log_8h_1a2d051caf21ccab9490503a57f3364472" kind="define"><name>BASHW</name></member>
+    <member refid="dustin__log_8h_1a26c26693139d45b783d2290be2f00c35" kind="define"><name>PARAM_LOG</name></member>
+  </compound>
+  <compound refid="lua__param__dictionary_8h" kind="file"><name>lua_param_dictionary.h</name>
+  </compound>
+  <compound refid="math_8h" kind="file"><name>math.h</name>
+  </compound>
+  <compound refid="port_8h" kind="file"><name>port.h</name>
+  </compound>
+  <compound refid="time_8h" kind="file"><name>time.h</name>
+  </compound>
+  <compound refid="factory_8h" kind="file"><name>factory.h</name>
+  </compound>
+  <compound refid="corner__extraction_8h" kind="file"><name>corner_extraction.h</name>
+  </compound>
+  <compound refid="extraction__factory_8h" kind="file"><name>extraction_factory.h</name>
+  </compound>
+  <compound refid="extraction__options__phrase_8h" kind="file"><name>extraction_options_phrase.h</name>
+  </compound>
+  <compound refid="intensity__extraction_8h" kind="file"><name>intensity_extraction.h</name>
+  </compound>
+  <compound refid="abstract__extraction_8h" kind="file"><name>abstract_extraction.h</name>
+  </compound>
+  <compound refid="dir_353e62e7e775c8c13a770fa04d601242" kind="dir"><name>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association</name>
+  </compound>
+  <compound refid="dir_8c2e9fe2173dae940278f4abe76fd4fb" kind="dir"><name>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common</name>
+  </compound>
+  <compound refid="dir_a347627f5dfa74017cf9fd9be5c93f17" kind="dir"><name>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction</name>
+  </compound>
+  <compound refid="dir_b1ebf7982f2b35c66c055ae82e7a5467" kind="dir"><name>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association</name>
+  </compound>
+  <compound refid="dir_b7c732a1b6bc76de30c2ce1ac94c9ba9" kind="dir"><name>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping</name>
+  </compound>
+  <compound refid="dir_d70d0a7f36f15dd6edd993c5b018a143" kind="dir"><name>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association</name>
+  </compound>
+  <compound refid="dir_34ee59b8229f0542991e563412e99199" kind="dir"><name>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction</name>
+  </compound>
+  <compound refid="dir_39746cfeb71ff47d2fc229564d873800" kind="dir"><name>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction</name>
+  </compound>
+  <compound refid="dir_a3bc0047268be558caa20867f8608003" kind="dir"><name>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface</name>
+  </compound>
+  <compound refid="dir_745056340e99b72d044dc49e465f95d7" kind="dir"><name>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface</name>
+  </compound>
+  <compound refid="dir_f4887a30dff0e7f16cec3bfd379711f9" kind="dir"><name>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils</name>
+  </compound>
+</doxygenindex>

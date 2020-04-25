@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver" kind="class" language="C++" prot="public">
+    <compoundname>DsFMapping::common::ConfigurationFileResolver</compoundname>
+    <basecompoundref refid="class_ds_f_mapping_1_1common_1_1_file_resolver" prot="public" virt="non-virtual">DsFMapping::common::FileResolver</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1aab26337b786df9721b275a4cca69208d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; DsFMapping::common::ConfigurationFileResolver::configuration_files_directories_</definition>
+        <argsstring></argsstring>
+        <name>configuration_files_directories_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/config_file_resolver.h" line="31" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/config_file_resolver.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1a0c90cefc34f13917b1f5a016c8c9ce90" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::common::ConfigurationFileResolver::ConfigurationFileResolver</definition>
+        <argsstring>(const std::vector&lt; std::string &gt; &amp;configuration_files_directories)</argsstring>
+        <name>ConfigurationFileResolver</name>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>configuration_files_directories</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/config_file_resolver.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1a075a029c9d46036def797c52c2e08fb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string DsFMapping::common::ConfigurationFileResolver::GetFullPathOrDie</definition>
+        <argsstring>(const std::string &amp;basename) override</argsstring>
+        <name>GetFullPathOrDie</name>
+        <reimplements refid="class_ds_f_mapping_1_1common_1_1_file_resolver_1a26e7809d93236029ad0f2acf840cc119">GetFullPathOrDie</reimplements>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>basename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/config_file_resolver.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1a545cafb96ea9a748a44c24a77bf15965" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string DsFMapping::common::ConfigurationFileResolver::GetFileContentOrDie</definition>
+        <argsstring>(const std::string &amp;basename) override</argsstring>
+        <name>GetFileContentOrDie</name>
+        <reimplements refid="class_ds_f_mapping_1_1common_1_1_file_resolver_1aca45411b754a5d731f58d829d95fd6ed">GetFileContentOrDie</reimplements>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>basename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/config_file_resolver.h" line="28" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="57">
+        <label>DsFMapping::common::ConfigurationFileResolver</label>
+        <link refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>DsFMapping::common::FileResolver</label>
+        <link refid="class_ds_f_mapping_1_1common_1_1_file_resolver"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="59">
+        <label>DsFMapping::common::ConfigurationFileResolver</label>
+        <link refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>DsFMapping::common::FileResolver</label>
+        <link refid="class_ds_f_mapping_1_1common_1_1_file_resolver"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/config_file_resolver.h" line="22" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/config_file_resolver.h" bodystart="22" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1aab26337b786df9721b275a4cca69208d" prot="private" virt="non-virtual"><scope>DsFMapping::common::ConfigurationFileResolver</scope><name>configuration_files_directories_</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1a0c90cefc34f13917b1f5a016c8c9ce90" prot="public" virt="non-virtual"><scope>DsFMapping::common::ConfigurationFileResolver</scope><name>ConfigurationFileResolver</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1a545cafb96ea9a748a44c24a77bf15965" prot="public" virt="virtual"><scope>DsFMapping::common::ConfigurationFileResolver</scope><name>GetFileContentOrDie</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1a075a029c9d46036def797c52c2e08fb0" prot="public" virt="virtual"><scope>DsFMapping::common::ConfigurationFileResolver</scope><name>GetFullPathOrDie</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_file_resolver_1a3d6f99e1e91df7debc3de8e462a63d3c" prot="public" virt="virtual"><scope>DsFMapping::common::ConfigurationFileResolver</scope><name>~FileResolver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

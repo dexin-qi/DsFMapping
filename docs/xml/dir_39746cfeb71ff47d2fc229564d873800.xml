@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_39746cfeb71ff47d2fc229564d873800" kind="dir">
+    <compoundname>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction</compoundname>
+    <innerfile refid="intensity__extraction_8h">intensity_extraction.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_ds_f_mapping_1_1_association_1_1_abstract_association" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>DsFMapping::Association::AbstractAssociation</compoundname>
+    <derivedcompoundref refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association" prot="public" virt="non-virtual">DsFMapping::Association::DBscanAssociation</derivedcompoundref>
+    <derivedcompoundref refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association" prot="public" virt="non-virtual">DsFMapping::Association::DSUAssociation</derivedcompoundref>
+    <includes refid="abstract__association_8h" local="no">abstract_association.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a6941fe7661b7fed5586b0a2cbe533d2f" prot="public" static="no" mutable="no">
+        <type>AssociationOptions</type>
+        <definition>AssociationOptions DsFMapping::Association::AbstractAssociation::_options</definition>
+        <argsstring></argsstring>
+        <name>_options</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h" line="43" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_association_1_1_abstract_association_1ad0877be23ceed09ea53d99a6c6a7de76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::Association::AbstractAssociation::AbstractAssociation</definition>
+        <argsstring>()</argsstring>
+        <name>AbstractAssociation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h" line="36" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a0f5b336613059b012959316a5950cdc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual DsFMapping::Association::AbstractAssociation::~AbstractAssociation</definition>
+        <argsstring>()=default</argsstring>
+        <name>~AbstractAssociation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a6fd7d005a75dd803d01b2083a1eec912" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void DsFMapping::Association::AbstractAssociation::Init</definition>
+        <argsstring>()=0</argsstring>
+        <name>Init</name>
+        <reimplementedby refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a9b8fa92df5a2e6717064bd8cb865efbc">Init</reimplementedby>
+        <reimplementedby refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1a0aa2fc1c926cc0bb3840b3367ea634a4">Init</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a5deb1347e659dd780f37685e247ea378" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool DsFMapping::Association::AbstractAssociation::Association</definition>
+        <argsstring>(DsFMapping::Sensor::IntensityRange2D &amp;candidate_cloud, DsFMapping::Sensor::Feature2DList &amp;feature_list)=0</argsstring>
+        <name>Association</name>
+        <reimplementedby refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a3c4cfc8bfd0ebe5473d26a7173fdf55e">Association</reimplementedby>
+        <reimplementedby refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association_1a685c5c2f32ebe201b2ffd044d5c7294f">Association</reimplementedby>
+        <param>
+          <type>DsFMapping::Sensor::IntensityRange2D &amp;</type>
+          <declname>candidate_cloud</declname>
+        </param>
+        <param>
+          <type>DsFMapping::Sensor::Feature2DList &amp;</type>
+          <declname>feature_list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a8520ab94b66b153518c0a72e047c2e15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DsFMapping::Association::AbstractAssociation::SetAssocoiationOptions</definition>
+        <argsstring>(const AssociationOptions &amp;options)</argsstring>
+        <name>SetAssocoiationOptions</name>
+        <param>
+          <type>const AssociationOptions &amp;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h" line="41" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>this class is the abstract class following the AbstractFactory design pattern. </para>    </briefdescription>
+    <detaileddescription>
+<para>It can create feature association method based on a given AssociationOptions. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="46">
+        <label>DsFMapping::Association::DBscanAssociation</label>
+        <link refid="class_ds_f_mapping_1_1_association_1_1_d_bscan_association"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>DsFMapping::Association::AbstractAssociation</label>
+        <link refid="class_ds_f_mapping_1_1_association_1_1_abstract_association"/>
+      </node>
+      <node id="47">
+        <label>DsFMapping::Association::DSUAssociation</label>
+        <link refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h" line="34" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h" bodystart="34" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a6941fe7661b7fed5586b0a2cbe533d2f" prot="public" virt="non-virtual"><scope>DsFMapping::Association::AbstractAssociation</scope><name>_options</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1ad0877be23ceed09ea53d99a6c6a7de76" prot="public" virt="non-virtual"><scope>DsFMapping::Association::AbstractAssociation</scope><name>AbstractAssociation</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a5deb1347e659dd780f37685e247ea378" prot="public" virt="pure-virtual"><scope>DsFMapping::Association::AbstractAssociation</scope><name>Association</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a6fd7d005a75dd803d01b2083a1eec912" prot="public" virt="pure-virtual"><scope>DsFMapping::Association::AbstractAssociation</scope><name>Init</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a8520ab94b66b153518c0a72e047c2e15" prot="public" virt="non-virtual"><scope>DsFMapping::Association::AbstractAssociation</scope><name>SetAssocoiationOptions</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a0f5b336613059b012959316a5950cdc0" prot="public" virt="virtual"><scope>DsFMapping::Association::AbstractAssociation</scope><name>~AbstractAssociation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

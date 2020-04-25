@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_d70d0a7f36f15dd6edd993c5b018a143" kind="dir">
+    <compoundname>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association</compoundname>
+    <innerfile refid="dsu__association_8h">dsu_association.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/"/>
+  </compounddef>
+</doxygen>

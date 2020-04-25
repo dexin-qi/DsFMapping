@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="port_8h" kind="file" language="C++">
+    <compoundname>port.h</compoundname>
+    <includes local="no">boost/iostreams/device/back_inserter.hpp</includes>
+    <includes local="no">boost/iostreams/filter/gzip.hpp</includes>
+    <includes local="no">boost/iostreams/filtering_stream.hpp</includes>
+    <includes local="no">cinttypes</includes>
+    <includes local="no">cmath</includes>
+    <includes local="no">string</includes>
+    <includedby refid="config__file__resolver_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/config_file_resolver.h</includedby>
+    <includedby refid="lua__param__dictionary_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h</includedby>
+    <includedby refid="math_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/math.h</includedby>
+    <includedby refid="time_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h</includedby>
+    <incdepgraph>
+      <node id="260">
+        <label>boost/iostreams/device/back_inserter.hpp</label>
+      </node>
+      <node id="261">
+        <label>boost/iostreams/filter/gzip.hpp</label>
+      </node>
+      <node id="264">
+        <label>cmath</label>
+      </node>
+      <node id="265">
+        <label>string</label>
+      </node>
+      <node id="263">
+        <label>cinttypes</label>
+      </node>
+      <node id="259">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h</label>
+        <link refid="port.h"/>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+      </node>
+      <node id="262">
+        <label>boost/iostreams/filtering_stream.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="274">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h</label>
+        <link refid="abstract__association_8h_source"/>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="276" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+      </node>
+      <node id="280">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/time.h</label>
+        <link refid="time_8h_source"/>
+      </node>
+      <node id="275">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_factory.h</label>
+        <link refid="association__factory_8h_source"/>
+      </node>
+      <node id="276">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h</label>
+        <link refid="dbscan__association_8h_source"/>
+      </node>
+      <node id="266">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h</label>
+        <link refid="port.h"/>
+        <childnode refid="267" relation="include">
+        </childnode>
+        <childnode refid="278" relation="include">
+        </childnode>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="280" relation="include">
+        </childnode>
+      </node>
+      <node id="271">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_factory.h</label>
+        <link refid="extraction__factory_8h_source"/>
+      </node>
+      <node id="269">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h</label>
+        <link refid="abstract__extraction_8h_source"/>
+        <childnode refid="270" relation="include">
+        </childnode>
+        <childnode refid="271" relation="include">
+        </childnode>
+        <childnode refid="272" relation="include">
+        </childnode>
+      </node>
+      <node id="273">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_options_phrase.h</label>
+        <link refid="association__options__phrase_8h_source"/>
+      </node>
+      <node id="270">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h</label>
+        <link refid="corner__extraction_8h_source"/>
+      </node>
+      <node id="268">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_options_phrase.h</label>
+        <link refid="extraction__options__phrase_8h_source"/>
+      </node>
+      <node id="272">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction/intensity_extraction.h</label>
+        <link refid="intensity__extraction_8h_source"/>
+      </node>
+      <node id="277">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h</label>
+        <link refid="dsu__association_8h_source"/>
+      </node>
+      <node id="279">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/math.h</label>
+        <link refid="math_8h_source"/>
+      </node>
+      <node id="278">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h</label>
+        <link refid="lua__param__dictionary_8h"/>
+        <childnode refid="267" relation="include">
+        </childnode>
+        <childnode refid="268" relation="include">
+        </childnode>
+        <childnode refid="269" relation="include">
+        </childnode>
+        <childnode refid="273" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+      </node>
+      <node id="267">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/config_file_resolver.h</label>
+        <link refid="config__file__resolver_8h"/>
+        <childnode refid="268" relation="include">
+        </childnode>
+        <childnode refid="269" relation="include">
+        </childnode>
+        <childnode refid="273" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespace_ds_f_mapping">DsFMapping</innernamespace>
+    <innernamespace refid="namespace_ds_f_mapping_1_1common">DsFMapping::common</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>DustinKsi (<ulink url="mailto:dustinksi@126.com">dustinksi@126.com</ulink>) </para></simplesect>
+<simplesect kind="version"><para>0.1 </para></simplesect>
+<simplesect kind="date"><para>2020-04-25</para></simplesect>
+<simplesect kind="copyright"><para>Copyright (c) 2020 </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="12"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/iostreams/device/back_inserter.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/iostreams/filter/gzip.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/iostreams/filtering_stream.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cinttypes&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ds_f_mapping" kindref="compound">DsFMapping</ref><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>int8<sp/>=<sp/>int8_t;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>int16<sp/>=<sp/>int16_t;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>int32<sp/>=<sp/>int32_t;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>int64<sp/>=<sp/>int64_t;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>uint8<sp/>=<sp/>uint8_t;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>uint16<sp/>=<sp/>uint16_t;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>uint32<sp/>=<sp/>uint32_t;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>uint64<sp/>=<sp/>uint64_t;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">common<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RoundToInt(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::lround(x);<sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RoundToInt(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::lround(x);<sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>int64<sp/>RoundToInt64(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::lround(x);<sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>int64<sp/>RoundToInt64(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::lround(x);<sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>FastGzipString(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>uncompressed,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string*<sp/>compressed)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>boost::iostreams::filtering_ostream<sp/>out;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/>out.push(</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>boost::iostreams::gzip_compressor(boost::iostreams::zlib::best_speed));</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>out.push(boost::iostreams::back_inserter(*compressed));</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>boost::iostreams::write(out,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reinterpret_cast&lt;const<sp/>char*&gt;(uncompressed.data()),</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uncompressed.size());</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>FastGunzipString(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>compressed,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string*<sp/>decompressed)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>boost::iostreams::filtering_ostream<sp/>out;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>out.push(boost::iostreams::gzip_decompressor());</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>out.push(boost::iostreams::back_inserter(*decompressed));</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>boost::iostreams::write(out,<sp/>reinterpret_cast&lt;const<sp/>char*&gt;(compressed.data()),</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>compressed.size());</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>common</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>DsFMapping</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h"/>
+  </compounddef>
+</doxygen>

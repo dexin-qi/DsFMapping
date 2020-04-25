@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespace_ds_f_mapping" kind="namespace" language="C++">
+    <compoundname>DsFMapping</compoundname>
+    <innernamespace refid="namespace_ds_f_mapping_1_1_association">DsFMapping::Association</innernamespace>
+    <innernamespace refid="namespace_ds_f_mapping_1_1common">DsFMapping::common</innernamespace>
+    <innernamespace refid="namespace_ds_f_mapping_1_1_extraction">DsFMapping::Extraction</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="port_8h_1aa7332eb212c5f202be0e62ed879cbfed" prot="public" static="no">
+        <type>int8_t</type>
+        <definition>using DsFMapping::int8 = typedef int8_t</definition>
+        <argsstring></argsstring>
+        <name>int8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" line="23" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="port_8h_1a6c199bd9e69e380c3c5aa7bcf119d5fd" prot="public" static="no">
+        <type>int16_t</type>
+        <definition>using DsFMapping::int16 = typedef int16_t</definition>
+        <argsstring></argsstring>
+        <name>int16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" line="24" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="port_8h_1abd87cb1c88f3c01724754be5b0234e24" prot="public" static="no">
+        <type>int32_t</type>
+        <definition>using DsFMapping::int32 = typedef int32_t</definition>
+        <argsstring></argsstring>
+        <name>int32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" line="25" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="port_8h_1ad58f9533893127cb7f7112061263cc08" prot="public" static="no">
+        <type>int64_t</type>
+        <definition>using DsFMapping::int64 = typedef int64_t</definition>
+        <argsstring></argsstring>
+        <name>int64</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" line="26" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="port_8h_1ac0555ff8fb28753162390358f83049f4" prot="public" static="no">
+        <type>uint8_t</type>
+        <definition>using DsFMapping::uint8 = typedef uint8_t</definition>
+        <argsstring></argsstring>
+        <name>uint8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" line="27" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="port_8h_1ab88686ecc81588bc845ddc5a708a5009" prot="public" static="no">
+        <type>uint16_t</type>
+        <definition>using DsFMapping::uint16 = typedef uint16_t</definition>
+        <argsstring></argsstring>
+        <name>uint16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" line="28" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="port_8h_1ab1abd84dbac3b6af178c7c22af388b27" prot="public" static="no">
+        <type>uint32_t</type>
+        <definition>using DsFMapping::uint32 = typedef uint32_t</definition>
+        <argsstring></argsstring>
+        <name>uint32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" line="29" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="port_8h_1a7f8a34358446eebfef72f3d3bcac254b" prot="public" static="no">
+        <type>uint64_t</type>
+        <definition>using DsFMapping::uint64 = typedef uint64_t</definition>
+        <argsstring></argsstring>
+        <name>uint64</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" line="30" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/port.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/config_file_resolver.h" line="19" column="1"/>
+  </compounddef>
+</doxygen>

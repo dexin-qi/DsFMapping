@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="factory_8h" kind="file" language="C++">
+    <compoundname>factory.h</compoundname>
+    <includes local="no">map</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">utility</includes>
+    <includes refid="dustin__log_8h" local="yes">dsfmapping/common/dustin_log.h</includes>
+    <includedby refid="extraction__factory_8h" local="no">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_factory.h</includedby>
+    <includedby refid="association__factory_8h" local="no">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_factory.h</includedby>
+    <incdepgraph>
+      <node id="293">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h</label>
+        <link refid="factory.h"/>
+        <childnode refid="294" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="296" relation="include">
+        </childnode>
+        <childnode refid="297" relation="include">
+        </childnode>
+      </node>
+      <node id="298">
+        <label>glog/logging.h</label>
+      </node>
+      <node id="294">
+        <label>map</label>
+      </node>
+      <node id="297">
+        <label>dsfmapping/common/dustin_log.h</label>
+        <link refid="dustin__log_8h_source"/>
+        <childnode refid="298" relation="include">
+        </childnode>
+      </node>
+      <node id="296">
+        <label>utility</label>
+      </node>
+      <node id="295">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="299">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h</label>
+        <link refid="factory.h"/>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="301" relation="include">
+        </childnode>
+      </node>
+      <node id="301">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_factory.h</label>
+        <link refid="association__factory_8h_source"/>
+      </node>
+      <node id="300">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_factory.h</label>
+        <link refid="extraction__factory_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory" prot="public">DsFMapping::common::utils::Factory</innerclass>
+    <innernamespace refid="namespace_ds_f_mapping">DsFMapping</innernamespace>
+    <innernamespace refid="namespace_ds_f_mapping_1_1common">DsFMapping::common</innernamespace>
+    <innernamespace refid="namespace_ds_f_mapping_1_1common_1_1utils">DsFMapping::common::utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">*<sp/>Copyright<sp/>Authors<sp/>DustinKsi@<sp/>Youibot<sp/>2019.<sp/>All<sp/>Rights<sp/>Reserved.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*<sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;dsfmapping/common/dustin_log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ds_f_mapping" kindref="compound">DsFMapping</ref><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">common<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">utils<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>IdentifierType,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">AbstractProduct,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ProductCreator<sp/>=<sp/>AbstractProduct<sp/>*(*)(),</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>MapContainer<sp/>=<sp/>std::map&lt;IdentifierType,<sp/>ProductCreator&gt;&gt;</highlight></codeline>
+<codeline lineno="32" refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/><ref refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory" kindref="compound">Factory</ref><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42" refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a9cd85e6f5ba674c3aceec1d7014d459b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a9cd85e6f5ba674c3aceec1d7014d459b" kindref="member">Register</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>IdentifierType<sp/>&amp;</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>ProductCreator<sp/>creator)<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>producers_.insert(std::make_pair(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>creator)).second;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Contains(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>IdentifierType<sp/>&amp;</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>producers_.find(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>!=<sp/>producers_.end();<sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a99f5d48828f9c879a43d2a2f527cbc99" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a99f5d48828f9c879a43d2a2f527cbc99" kindref="member">Unregister</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>IdentifierType<sp/>&amp;</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>producers_.erase(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>==<sp/>1;<sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Clear()<sp/>{<sp/>producers_.clear();<sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Empty()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>producers_.empty();<sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="66" refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1af5d55081b3a25d5bcf1ded7396d60d76" refkind="member"><highlight class="normal"><sp/><sp/>std::unique_ptr&lt;AbstractProduct&gt;<sp/><ref refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1af5d55081b3a25d5bcf1ded7396d60d76" kindref="member">CreateObjectOrNull</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>IdentifierType<sp/>&amp;</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>Args<sp/>&amp;&amp;...<sp/>args)<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>id_iter<sp/>=<sp/>producers_.find(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(id_iter<sp/>!=<sp/>producers_.end())<sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::unique_ptr&lt;AbstractProduct&gt;((id_iter-&gt;second)(std::forward&lt;Args&gt;(args)...));</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="81" refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1ae5358622bda3702411ec0f8a021ef9a0" refkind="member"><highlight class="normal"><sp/><sp/>std::unique_ptr&lt;AbstractProduct&gt;<sp/><ref refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1ae5358622bda3702411ec0f8a021ef9a0" kindref="member">CreateObject</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>IdentifierType<sp/>&amp;</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>Args<sp/>&amp;&amp;...<sp/>args)<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>result<sp/>=<sp/>CreateObjectOrNull(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>std::forward&lt;Args&gt;(args)...);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>LOG_IF(ERROR,<sp/>!result)<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Factory<sp/>could<sp/>not<sp/>create<sp/>Object<sp/>of<sp/>type<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>id;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/>MapContainer<sp/>producers_;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>util</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h"/>
+  </compounddef>
+</doxygen>

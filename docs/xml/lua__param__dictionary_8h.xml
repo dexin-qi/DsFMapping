@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="lua__param__dictionary_8h" kind="file" language="C++">
+    <compoundname>lua_param_dictionary.h</compoundname>
+    <includes local="no">map</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">lua.hpp</includes>
+    <includes refid="port_8h" local="yes">dsfmapping/common/port.h</includes>
+    <includes refid="dustin__log_8h" local="yes">dsfmapping/common/dustin_log.h</includes>
+    <includedby refid="config__file__resolver_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/config_file_resolver.h</includedby>
+    <includedby refid="extraction__options__phrase_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_options_phrase.h</includedby>
+    <includedby refid="abstract__extraction_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h</includedby>
+    <includedby refid="association__options__phrase_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_options_phrase.h</includedby>
+    <includedby refid="abstract__association_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h</includedby>
+    <incdepgraph>
+      <node id="226">
+        <label>lua.hpp</label>
+      </node>
+      <node id="234">
+        <label>glog/logging.h</label>
+      </node>
+      <node id="228">
+        <label>boost/iostreams/device/back_inserter.hpp</label>
+      </node>
+      <node id="229">
+        <label>boost/iostreams/filter/gzip.hpp</label>
+      </node>
+      <node id="232">
+        <label>cmath</label>
+      </node>
+      <node id="224">
+        <label>string</label>
+      </node>
+      <node id="231">
+        <label>cinttypes</label>
+      </node>
+      <node id="222">
+        <label>map</label>
+      </node>
+      <node id="227">
+        <label>dsfmapping/common/port.h</label>
+        <link refid="port_8h"/>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+        <childnode refid="232" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+      </node>
+      <node id="233">
+        <label>dsfmapping/common/dustin_log.h</label>
+        <link refid="dustin__log_8h_source"/>
+        <childnode refid="234" relation="include">
+        </childnode>
+      </node>
+      <node id="225">
+        <label>vector</label>
+      </node>
+      <node id="221">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h</label>
+        <link refid="lua_param_dictionary.h"/>
+        <childnode refid="222" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="225" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+      </node>
+      <node id="230">
+        <label>boost/iostreams/filtering_stream.hpp</label>
+      </node>
+      <node id="223">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="243">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h</label>
+        <link refid="abstract__association_8h_source"/>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+      </node>
+      <node id="244">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_factory.h</label>
+        <link refid="association__factory_8h_source"/>
+      </node>
+      <node id="245">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h</label>
+        <link refid="dbscan__association_8h_source"/>
+      </node>
+      <node id="240">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_factory.h</label>
+        <link refid="extraction__factory_8h_source"/>
+      </node>
+      <node id="238">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h</label>
+        <link refid="abstract__extraction_8h_source"/>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+      </node>
+      <node id="242">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_options_phrase.h</label>
+        <link refid="association__options__phrase_8h_source"/>
+      </node>
+      <node id="239">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h</label>
+        <link refid="corner__extraction_8h_source"/>
+      </node>
+      <node id="237">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_options_phrase.h</label>
+        <link refid="extraction__options__phrase_8h_source"/>
+      </node>
+      <node id="241">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction/intensity_extraction.h</label>
+        <link refid="intensity__extraction_8h_source"/>
+      </node>
+      <node id="246">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h</label>
+        <link refid="dsu__association_8h_source"/>
+      </node>
+      <node id="235">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h</label>
+        <link refid="lua_param_dictionary.h"/>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/config_file_resolver.h</label>
+        <link refid="config__file__resolver_8h"/>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_ds_f_mapping_1_1common_1_1_file_resolver" prot="public">DsFMapping::common::FileResolver</innerclass>
+    <innerclass refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" prot="public">DsFMapping::common::LuaParameterDictionary</innerclass>
+    <innernamespace refid="namespace_ds_f_mapping">DsFMapping</innernamespace>
+    <innernamespace refid="namespace_ds_f_mapping_1_1common">DsFMapping::common</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>DustinKsi (<ulink url="mailto:dustinksi@126.com">dustinksi@126.com</ulink>) </para></simplesect>
+<simplesect kind="version"><para>0.1 </para></simplesect>
+<simplesect kind="date"><para>2019-12-08</para></simplesect>
+<simplesect kind="copyright"><para>Copyright (c) 2019 </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="12"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;lua.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="port_8h" kindref="compound">dsfmapping/common/port.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;dsfmapping/common/dustin_log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ds_f_mapping" kindref="compound">DsFMapping</ref><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">common<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Resolves<sp/>file<sp/>paths<sp/>and<sp/>file<sp/>content<sp/>for<sp/>the<sp/>Lua<sp/>&apos;read&apos;<sp/>and<sp/>&apos;include&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>functions.<sp/>Use<sp/>this<sp/>to<sp/>configure<sp/>where<sp/>those<sp/>functions<sp/>load<sp/>other<sp/>files<sp/>from.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_ds_f_mapping_1_1common_1_1_file_resolver" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ds_f_mapping_1_1common_1_1_file_resolver" kindref="compound">FileResolver</ref><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="class_ds_f_mapping_1_1common_1_1_file_resolver" kindref="compound">FileResolver</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/>GetFullPathOrDie(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>basename)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/>GetFileContentOrDie(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>basename)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>parameter<sp/>dictionary<sp/>that<sp/>gets<sp/>loaded<sp/>from<sp/>Lua<sp/>code.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Constructs<sp/>the<sp/>dictionary<sp/>from<sp/>a<sp/>Lua<sp/>Table<sp/>specification.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>code,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::unique_ptr&lt;FileResolver&gt;<sp/>file_resolver);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Constructs<sp/>a<sp/>LuaParameterDictionary<sp/>without<sp/>reference<sp/>counting.<sp/>tt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::unique_ptr&lt;LuaParameterDictionary&gt;<sp/>NonReferenceCounted(</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>code,<sp/>std::unique_ptr&lt;FileResolver&gt;<sp/>file_resolver);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>~<ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref>();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>all<sp/>available<sp/>keys.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>std::vector&lt;std::string&gt;<sp/>GetKeys()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>true<sp/>if<sp/>the<sp/>key<sp/>is<sp/>in<sp/>this<sp/>dictionary.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>HasKey(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>key)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>These<sp/>methods<sp/>CHECK()<sp/>that<sp/>the<sp/>&apos;key&apos;<sp/>exists.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>std::string<sp/>GetString(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>key);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>GetDouble(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>key);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>GetInt(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>key);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetBool(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>key);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>std::unique_ptr&lt;LuaParameterDictionary&gt;<sp/>GetDictionary(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>key);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Gets<sp/>an<sp/>int<sp/>from<sp/>the<sp/>dictionary<sp/>and<sp/>CHECK()s<sp/>that<sp/>it<sp/>is<sp/>non-negative.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>GetNonNegativeInt(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>key);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>a<sp/>string<sp/>representation<sp/>for<sp/>this<sp/>LuaParameterDictionary.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>std::string<sp/>ToString()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>the<sp/>values<sp/>of<sp/>the<sp/>keys<sp/>&apos;1&apos;,<sp/>&apos;2&apos;,<sp/>&apos;3&apos;<sp/>as<sp/>the<sp/>given<sp/>types.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>std::vector&lt;double&gt;<sp/>GetArrayValuesAsDoubles();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>std::vector&lt;std::string&gt;<sp/>GetArrayValuesAsStrings();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>std::vector&lt;std::unique_ptr&lt;LuaParameterDictionary&gt;&gt;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>GetArrayValuesAsDictionaries();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>ReferenceCount<sp/>{<sp/>YES,<sp/>NO<sp/>};</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>code,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ReferenceCount<sp/>reference_count,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::unique_ptr&lt;FileResolver&gt;<sp/>file_resolver);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>GetDictionary().</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref>(lua_State*<sp/>L,<sp/>ReferenceCount<sp/>reference_count,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;FileResolver&gt;<sp/>file_resolver);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Function<sp/>that<sp/>recurses<sp/>to<sp/>keep<sp/>track<sp/>of<sp/>indent<sp/>for<sp/>ToString().</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>std::string<sp/>DoToString(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>indent)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Pop<sp/>the<sp/>top<sp/>of<sp/>the<sp/>stack<sp/>and<sp/>CHECKs<sp/>that<sp/>the<sp/>type<sp/>is<sp/>correct.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>PopDouble()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PopInt()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>PopBool()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Pop<sp/>the<sp/>top<sp/>of<sp/>the<sp/>stack<sp/>and<sp/>CHECKs<sp/>that<sp/>it<sp/>is<sp/>a<sp/>string.<sp/>The<sp/>returned<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>is<sp/>either<sp/>quoted<sp/>to<sp/>be<sp/>suitable<sp/>to<sp/>be<sp/>read<sp/>back<sp/>by<sp/>a<sp/>Lua<sp/>interpretor<sp/>or</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>not.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>Quoted<sp/>{<sp/>YES,<sp/>NO<sp/>};</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>std::string<sp/>PopString(Quoted<sp/>quoted)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Creates<sp/>a<sp/>LuaParameterDictionary<sp/>from<sp/>the<sp/>Lua<sp/>table<sp/>at<sp/>the<sp/>top<sp/>of<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>stack,<sp/>either<sp/>with<sp/>or<sp/>without<sp/>reference<sp/>counting.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>std::unique_ptr&lt;LuaParameterDictionary&gt;<sp/>PopDictionary(</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ReferenceCount<sp/>reference_count)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>CHECK()<sp/>that<sp/>&apos;key&apos;<sp/>is<sp/>in<sp/>the<sp/>dictionary.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CheckHasKey(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>key)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>CHECK()<sp/>that<sp/>&apos;key&apos;<sp/>is<sp/>in<sp/>this<sp/>dictionary<sp/>and<sp/>reference<sp/>it<sp/>as<sp/>being<sp/>used.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CheckHasKeyAndReference(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>key);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>desired,<sp/>this<sp/>can<sp/>be<sp/>called<sp/>in<sp/>the<sp/>destructor<sp/>of<sp/>a<sp/>derived<sp/>class.<sp/>It</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>will<sp/>CHECK()<sp/>that<sp/>all<sp/>keys<sp/>defined<sp/>in<sp/>the<sp/>configuration<sp/>have<sp/>been<sp/>used</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>exactly<sp/>once<sp/>and<sp/>resets<sp/>the<sp/>reference<sp/>counter.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CheckAllKeysWereUsedExactlyOnceAndReset();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Reads<sp/>a<sp/>file<sp/>into<sp/>a<sp/>Lua<sp/>string.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>LuaRead(lua_State*<sp/>L);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Handles<sp/>inclusion<sp/>of<sp/>other<sp/>Lua<sp/>files<sp/>and<sp/>prevents<sp/>double<sp/>inclusion.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>LuaInclude(lua_State*<sp/>L);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>lua_State*<sp/>L_;<sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>name<sp/>is<sp/>by<sp/>convention<sp/>in<sp/>the<sp/>Lua<sp/>World.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index_into_reference_table_;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>shared<sp/>with<sp/>all<sp/>the<sp/>sub<sp/>dictionaries.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;FileResolver&gt;<sp/>file_resolver_;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>true<sp/>will<sp/>check<sp/>that<sp/>all<sp/>keys<sp/>were<sp/>used<sp/>on<sp/>destruction.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ReferenceCount<sp/>reference_count_;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>modified<sp/>with<sp/>every<sp/>call<sp/>to<sp/>Get*<sp/>in<sp/>order<sp/>to<sp/>verify<sp/>that<sp/>all</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>parameters<sp/>are<sp/>read<sp/>exactly<sp/>once.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>std::map&lt;std::string,<sp/>int&gt;<sp/>reference_counts_;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>List<sp/>of<sp/>all<sp/>included<sp/>files<sp/>in<sp/>order<sp/>of<sp/>inclusion.<sp/>Used<sp/>to<sp/>prevent<sp/>double</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>inclusion.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/>std::vector&lt;std::string&gt;<sp/>included_files_;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>common</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>DsFMapping</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h"/>
+  </compounddef>
+</doxygen>

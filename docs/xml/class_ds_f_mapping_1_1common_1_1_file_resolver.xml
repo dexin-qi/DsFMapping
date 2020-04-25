@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_ds_f_mapping_1_1common_1_1_file_resolver" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>DsFMapping::common::FileResolver</compoundname>
+    <derivedcompoundref refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver" prot="public" virt="non-virtual">DsFMapping::common::ConfigurationFileResolver</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_file_resolver_1a3d6f99e1e91df7debc3de8e462a63d3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual DsFMapping::common::FileResolver::~FileResolver</definition>
+        <argsstring>()</argsstring>
+        <name>~FileResolver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="30" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_file_resolver_1a26e7809d93236029ad0f2acf840cc119" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string DsFMapping::common::FileResolver::GetFullPathOrDie</definition>
+        <argsstring>(const std::string &amp;basename)=0</argsstring>
+        <name>GetFullPathOrDie</name>
+        <reimplementedby refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1a075a029c9d46036def797c52c2e08fb0">GetFullPathOrDie</reimplementedby>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>basename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_file_resolver_1aca45411b754a5d731f58d829d95fd6ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string DsFMapping::common::FileResolver::GetFileContentOrDie</definition>
+        <argsstring>(const std::string &amp;basename)=0</argsstring>
+        <name>GetFileContentOrDie</name>
+        <reimplementedby refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver_1a545cafb96ea9a748a44c24a77bf15965">GetFileContentOrDie</reimplementedby>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>basename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="32" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="82">
+        <label>DsFMapping::common::ConfigurationFileResolver</label>
+        <link refid="class_ds_f_mapping_1_1common_1_1_configuration_file_resolver"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>DsFMapping::common::FileResolver</label>
+        <link refid="class_ds_f_mapping_1_1common_1_1_file_resolver"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="28" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" bodystart="28" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_ds_f_mapping_1_1common_1_1_file_resolver_1aca45411b754a5d731f58d829d95fd6ed" prot="public" virt="pure-virtual"><scope>DsFMapping::common::FileResolver</scope><name>GetFileContentOrDie</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_file_resolver_1a26e7809d93236029ad0f2acf840cc119" prot="public" virt="pure-virtual"><scope>DsFMapping::common::FileResolver</scope><name>GetFullPathOrDie</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_file_resolver_1a3d6f99e1e91df7debc3de8e462a63d3c" prot="public" virt="virtual"><scope>DsFMapping::common::FileResolver</scope><name>~FileResolver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

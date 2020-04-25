@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespace_ds_f_mapping_1_1_extraction" kind="namespace" language="C++">
+    <compoundname>DsFMapping::Extraction</compoundname>
+    <innerclass refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction" prot="public">DsFMapping::Extraction::AbstractExtraction</innerclass>
+    <innerclass refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction" prot="public">DsFMapping::Extraction::CornerExtraction</innerclass>
+    <innerclass refid="class_ds_f_mapping_1_1_extraction_1_1_extraction_factory" prot="public">DsFMapping::Extraction::ExtractionFactory</innerclass>
+    <innerclass refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction" prot="public">DsFMapping::Extraction::IntensityExtraction</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="extraction__options__phrase_8h_1acf21b38b76b05e6a8abccce609735aeb" prot="public" static="no">
+        <type><ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">common::LuaParameterDictionary</ref></type>
+        <definition>using DsFMapping::Extraction::ParamDict = typedef common::LuaParameterDictionary</definition>
+        <argsstring></argsstring>
+        <name>ParamDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_options_phrase.h" line="26" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_options_phrase.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="extraction__options__phrase_8h_1a9a26e58bc35b67b1daeeff8112b459b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ExtractionOptions</type>
+        <definition>ExtractionOptions DsFMapping::Extraction::CreateOptions</definition>
+        <argsstring>(ParamDict *const extraction_params)</argsstring>
+        <name>CreateOptions</name>
+        <param>
+          <type><ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">ParamDict</ref> *const</type>
+          <declname>extraction_params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_options_phrase.h" line="28" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h" line="23" column="1"/>
+  </compounddef>
+</doxygen>

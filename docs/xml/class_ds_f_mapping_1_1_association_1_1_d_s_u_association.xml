@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_ds_f_mapping_1_1_association_1_1_d_s_u_association" kind="class" language="C++" prot="public">
+    <compoundname>DsFMapping::Association::DSUAssociation</compoundname>
+    <basecompoundref refid="class_ds_f_mapping_1_1_association_1_1_abstract_association" prot="public" virt="non-virtual">DsFMapping::Association::AbstractAssociation</basecompoundref>
+    <innerclass refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1_1_d_s_u" prot="private">DsFMapping::Association::DSUAssociation::DSU</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1afd4af3aa4a728a3378024cfced57f16c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DsFMapping::Association::DSUAssociation::reflect_cylinder_radius</definition>
+        <argsstring></argsstring>
+        <name>reflect_cylinder_radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" line="45" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a1620dc2b06a981c5c7c53b59acd5efe1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DsFMapping::Association::DSUAssociation::dsu_merge_max_distance_square</definition>
+        <argsstring></argsstring>
+        <name>dsu_merge_max_distance_square</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" line="46" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a22501ed7f0d01bbcdc2d53148912cf9e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DsFMapping::Association::DSUAssociation::dsu_merge_min_points</definition>
+        <argsstring></argsstring>
+        <name>dsu_merge_min_points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" line="47" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1aa460ec5cb3423fa163bb9bd2736fafba" prot="private" static="no" mutable="no">
+        <type>vector&lt; pair&lt; double, double &gt; &gt;</type>
+        <definition>vector&lt;pair&lt;double, double&gt; &gt; DsFMapping::Association::DSUAssociation::dataset</definition>
+        <argsstring></argsstring>
+        <name>dataset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" line="49" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1aa85b3f6082bc1edff398ad672725cfd7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class AssociationFactory</definition>
+        <argsstring></argsstring>
+        <name>AssociationFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" line="65" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a9b8fa92df5a2e6717064bd8cb865efbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void DsFMapping::Association::DSUAssociation::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <reimplements refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a6fd7d005a75dd803d01b2083a1eec912">Init</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a3c4cfc8bfd0ebe5473d26a7173fdf55e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool DsFMapping::Association::DSUAssociation::Association</definition>
+        <argsstring>(DsFMapping::Sensor::IntensityRange2D &amp;candidate_cloud, DsFMapping::Sensor::Feature2DList &amp;feature_list)</argsstring>
+        <name>Association</name>
+        <reimplements refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a5deb1347e659dd780f37685e247ea378">Association</reimplements>
+        <param>
+          <type>DsFMapping::Sensor::IntensityRange2D &amp;</type>
+          <declname>candidate_cloud</declname>
+        </param>
+        <param>
+          <type>DsFMapping::Sensor::Feature2DList &amp;</type>
+          <declname>feature_list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a903afe1317fb7bcd56834e8aa98fd2ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DsFMapping::Association::DSUAssociation::result_cleanup</definition>
+        <argsstring>(vector&lt; pair&lt; double, double &gt; &gt; &amp;tmp_cluster, vector&lt; int &gt; &amp;tmp_cluster_weight, double search_radius_square, bool merge_target)</argsstring>
+        <name>result_cleanup</name>
+        <param>
+          <type>vector&lt; pair&lt; double, double &gt; &gt; &amp;</type>
+          <declname>tmp_cluster</declname>
+        </param>
+        <param>
+          <type>vector&lt; int &gt; &amp;</type>
+          <declname>tmp_cluster_weight</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>search_radius_square</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>merge_target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a657def64a926f6e87bf124b39931b0bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double DsFMapping::Association::DSUAssociation::distance_square</definition>
+        <argsstring>(vector&lt; pair&lt; double, double &gt; &gt;::iterator p1, vector&lt; pair&lt; double, double &gt; &gt;::iterator p2)</argsstring>
+        <name>distance_square</name>
+        <param>
+          <type>vector&lt; pair&lt; double, double &gt; &gt;::iterator</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>vector&lt; pair&lt; double, double &gt; &gt;::iterator</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1ac2552476e3ecc4342da0e4cdd1d34717" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::Association::DSUAssociation::~DSUAssociation</definition>
+        <argsstring>()</argsstring>
+        <name>~DSUAssociation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" line="62" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1acb27fbb9575a0fc14146535b70017f39" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::Association::DSUAssociation::DSUAssociation</definition>
+        <argsstring>()</argsstring>
+        <name>DSUAssociation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" line="67" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="72">
+        <label>DsFMapping::Association::AbstractAssociation</label>
+        <link refid="class_ds_f_mapping_1_1_association_1_1_abstract_association"/>
+      </node>
+      <node id="71">
+        <label>DsFMapping::Association::DSUAssociation</label>
+        <link refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="74">
+        <label>DsFMapping::Association::AbstractAssociation</label>
+        <link refid="class_ds_f_mapping_1_1_association_1_1_abstract_association"/>
+      </node>
+      <node id="73">
+        <label>DsFMapping::Association::DSUAssociation</label>
+        <link refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" line="33" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h" bodystart="33" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a6941fe7661b7fed5586b0a2cbe533d2f" prot="public" virt="non-virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>_options</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1ad0877be23ceed09ea53d99a6c6a7de76" prot="public" virt="non-virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>AbstractAssociation</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a3c4cfc8bfd0ebe5473d26a7173fdf55e" prot="public" virt="virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>Association</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1aa85b3f6082bc1edff398ad672725cfd7" prot="private" virt="non-virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>AssociationFactory</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1aa460ec5cb3423fa163bb9bd2736fafba" prot="private" virt="non-virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>dataset</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a657def64a926f6e87bf124b39931b0bd" prot="public" virt="non-virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>distance_square</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a1620dc2b06a981c5c7c53b59acd5efe1" prot="private" virt="non-virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>dsu_merge_max_distance_square</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a22501ed7f0d01bbcdc2d53148912cf9e" prot="private" virt="non-virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>dsu_merge_min_points</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1acb27fbb9575a0fc14146535b70017f39" prot="private" virt="non-virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>DSUAssociation</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a9b8fa92df5a2e6717064bd8cb865efbc" prot="public" virt="virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>Init</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1afd4af3aa4a728a3378024cfced57f16c" prot="private" virt="non-virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>reflect_cylinder_radius</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1a903afe1317fb7bcd56834e8aa98fd2ce" prot="public" virt="non-virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>result_cleanup</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a8520ab94b66b153518c0a72e047c2e15" prot="public" virt="non-virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>SetAssocoiationOptions</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_abstract_association_1a0f5b336613059b012959316a5950cdc0" prot="public" virt="virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>~AbstractAssociation</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_d_s_u_association_1ac2552476e3ecc4342da0e4cdd1d34717" prot="public" virt="non-virtual"><scope>DsFMapping::Association::DSUAssociation</scope><name>~DSUAssociation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

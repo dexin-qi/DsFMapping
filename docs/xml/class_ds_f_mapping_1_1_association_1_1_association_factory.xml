@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_ds_f_mapping_1_1_association_1_1_association_factory" kind="class" language="C++" prot="public">
+    <compoundname>DsFMapping::Association::AssociationFactory</compoundname>
+    <basecompoundref refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory" prot="public" virt="non-virtual">DsFMapping::common::utils::Factory&lt; AssociationBrand, AbstractAssociation &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_association_1_1_association_factory_1ac3d4e884d428fb0831a3f9a559e2eefd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DsFMapping::Association::AssociationFactory::RegisterAssociationFactory</definition>
+        <argsstring>()</argsstring>
+        <name>RegisterAssociationFactory</name>
+        <briefdescription>
+<para>Regist Association instance handler to Factory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_factory.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_association_1_1_association_factory_1ad4ee798c6cef85081e377697c8349df4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="class_ds_f_mapping_1_1_association_1_1_abstract_association" kindref="compound">AbstractAssociation</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;AbstractAssociation&gt; DsFMapping::Association::AssociationFactory::CreateAssociation</definition>
+        <argsstring>(const AssociationOptions &amp;options)</argsstring>
+        <name>CreateAssociation</name>
+        <param>
+          <type>const AssociationOptions &amp;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>Creates an <ref refid="class_ds_f_mapping_1_1_association_1_1_abstract_association" kindref="compound">AbstractAssociation</ref> object based on AssociationOptions. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>options</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is defined in association_options.proto </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_factory.h" line="41" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="54">
+        <label>DsFMapping::common::utils::Factory&lt; AssociationBrand, AbstractAssociation &gt;</label>
+        <link refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory"/>
+      </node>
+      <node id="53">
+        <label>DsFMapping::Association::AssociationFactory</label>
+        <link refid="class_ds_f_mapping_1_1_association_1_1_association_factory"/>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="56">
+        <label>DsFMapping::common::utils::Factory&lt; AssociationBrand, AbstractAssociation &gt;</label>
+        <link refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory"/>
+      </node>
+      <node id="55">
+        <label>DsFMapping::Association::AssociationFactory</label>
+        <link refid="class_ds_f_mapping_1_1_association_1_1_association_factory"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_factory.h" line="28" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_factory.h" bodystart="27" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1aacff50cb8d1541ebd6a23484559c304d" prot="public" virt="non-virtual"><scope>DsFMapping::Association::AssociationFactory</scope><name>Clear</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a4a6f7bd24c05bf05f2ed995219825c15" prot="public" virt="non-virtual"><scope>DsFMapping::Association::AssociationFactory</scope><name>Contains</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_association_factory_1ad4ee798c6cef85081e377697c8349df4" prot="public" virt="non-virtual"><scope>DsFMapping::Association::AssociationFactory</scope><name>CreateAssociation</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1ae5358622bda3702411ec0f8a021ef9a0" prot="public" virt="non-virtual"><scope>DsFMapping::Association::AssociationFactory</scope><name>CreateObject</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1af5d55081b3a25d5bcf1ded7396d60d76" prot="public" virt="non-virtual"><scope>DsFMapping::Association::AssociationFactory</scope><name>CreateObjectOrNull</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a97012d2c3ae4d230039e53df1d86a9f4" prot="public" virt="non-virtual"><scope>DsFMapping::Association::AssociationFactory</scope><name>Empty</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a9cd85e6f5ba674c3aceec1d7014d459b" prot="public" virt="non-virtual"><scope>DsFMapping::Association::AssociationFactory</scope><name>Register</name></member>
+      <member refid="class_ds_f_mapping_1_1_association_1_1_association_factory_1ac3d4e884d428fb0831a3f9a559e2eefd" prot="public" virt="non-virtual"><scope>DsFMapping::Association::AssociationFactory</scope><name>RegisterAssociationFactory</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1utils_1_1_factory_1a99f5d48828f9c879a43d2a2f527cbc99" prot="public" virt="non-virtual"><scope>DsFMapping::Association::AssociationFactory</scope><name>Unregister</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

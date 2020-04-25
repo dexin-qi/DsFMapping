@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="abstract__association_8h" kind="file" language="C++">
+    <compoundname>abstract_association.h</compoundname>
+    <includes refid="config__file__resolver_8h" local="yes">dsfmapping/common/config_file_resolver.h</includes>
+    <includes refid="dustin__log_8h" local="yes">dsfmapping/common/dustin_log.h</includes>
+    <includes refid="lua__param__dictionary_8h" local="yes">dsfmapping/common/lua_param_dictionary.h</includes>
+    <includes local="yes">dsfmapping/association/proto/association_options.pb.h</includes>
+    <includes local="yes">dsfmapping/sensor/proto/sensor.pb.h</includes>
+    <includedby refid="association__factory_8h" local="no">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_factory.h</includedby>
+    <includedby refid="dbscan__association_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h</includedby>
+    <includedby refid="dsu__association_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h</includedby>
+    <incdepgraph>
+      <node id="164">
+        <label>lua.hpp</label>
+      </node>
+      <node id="157">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h</label>
+        <link refid="abstract_association.h"/>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="171" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+      </node>
+      <node id="172">
+        <label>glog/logging.h</label>
+      </node>
+      <node id="166">
+        <label>boost/iostreams/device/back_inserter.hpp</label>
+      </node>
+      <node id="173">
+        <label>dsfmapping/association/proto/association_options.pb.h</label>
+      </node>
+      <node id="167">
+        <label>boost/iostreams/filter/gzip.hpp</label>
+      </node>
+      <node id="170">
+        <label>cmath</label>
+      </node>
+      <node id="163">
+        <label>string</label>
+      </node>
+      <node id="169">
+        <label>cinttypes</label>
+      </node>
+      <node id="161">
+        <label>map</label>
+      </node>
+      <node id="165">
+        <label>dsfmapping/common/port.h</label>
+        <link refid="port_8h"/>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>dsfmapping/common/dustin_log.h</label>
+        <link refid="dustin__log_8h_source"/>
+        <childnode refid="172" relation="include">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>vector</label>
+      </node>
+      <node id="160">
+        <label>dsfmapping/common/lua_param_dictionary.h</label>
+        <link refid="lua__param__dictionary_8h"/>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="171" relation="include">
+        </childnode>
+      </node>
+      <node id="158">
+        <label>dsfmapping/common/config_file_resolver.h</label>
+        <link refid="config__file__resolver_8h"/>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>boost/iostreams/filtering_stream.hpp</label>
+      </node>
+      <node id="162">
+        <label>memory</label>
+      </node>
+      <node id="174">
+        <label>dsfmapping/sensor/proto/sensor.pb.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="175">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h</label>
+        <link refid="abstract_association.h"/>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="178" relation="include">
+        </childnode>
+      </node>
+      <node id="176">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_factory.h</label>
+        <link refid="association__factory_8h_source"/>
+      </node>
+      <node id="177">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h</label>
+        <link refid="dbscan__association_8h_source"/>
+      </node>
+      <node id="178">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h</label>
+        <link refid="dsu__association_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_ds_f_mapping_1_1_association_1_1_abstract_association" prot="public">DsFMapping::Association::AbstractAssociation</innerclass>
+    <innernamespace refid="namespace_ds_f_mapping">DsFMapping</innernamespace>
+    <innernamespace refid="namespace_ds_f_mapping_1_1_association">DsFMapping::Association</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">*<sp/>Copyright<sp/>Authors<sp/>DustinKsi@<sp/>Youibot<sp/>2019.<sp/>All<sp/>Rights<sp/>Reserved.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*<sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="config__file__resolver_8h" kindref="compound">dsfmapping/common/config_file_resolver.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;dsfmapping/common/dustin_log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="lua__param__dictionary_8h" kindref="compound">dsfmapping/common/lua_param_dictionary.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;dsfmapping/association/proto/association_options.pb.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;dsfmapping/sensor/proto/sensor.pb.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ds_f_mapping" kindref="compound">DsFMapping</ref><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Association<sp/>{</highlight></codeline>
+<codeline lineno="34" refid="class_ds_f_mapping_1_1_association_1_1_abstract_association" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ds_f_mapping_1_1_association_1_1_abstract_association" kindref="compound">AbstractAssociation</ref><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><ref refid="class_ds_f_mapping_1_1_association_1_1_abstract_association" kindref="compound">AbstractAssociation</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="class_ds_f_mapping_1_1_association_1_1_abstract_association" kindref="compound">AbstractAssociation</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Init()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Association(DsFMapping::Sensor::IntensityRange2D<sp/>&amp;candidate_cloud,<sp/>DsFMapping::Sensor::Feature2DList<sp/>&amp;feature_list)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetAssocoiationOptions(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AssociationOptions<sp/>&amp;options);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>AssociationOptions<sp/>_options;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>Association</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>DsFMapping</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h"/>
+  </compounddef>
+</doxygen>

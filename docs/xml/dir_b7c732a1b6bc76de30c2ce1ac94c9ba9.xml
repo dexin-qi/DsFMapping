@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_b7c732a1b6bc76de30c2ce1ac94c9ba9" kind="dir">
+    <compoundname>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping</compoundname>
+    <innerdir refid="dir_353e62e7e775c8c13a770fa04d601242">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association</innerdir>
+    <innerdir refid="dir_8c2e9fe2173dae940278f4abe76fd4fb">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common</innerdir>
+    <innerdir refid="dir_34ee59b8229f0542991e563412e99199">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/"/>
+  </compounddef>
+</doxygen>

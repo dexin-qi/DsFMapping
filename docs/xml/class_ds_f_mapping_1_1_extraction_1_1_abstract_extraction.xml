@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>DsFMapping::Extraction::AbstractExtraction</compoundname>
+    <derivedcompoundref refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction" prot="public" virt="non-virtual">DsFMapping::Extraction::CornerExtraction</derivedcompoundref>
+    <derivedcompoundref refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction" prot="public" virt="non-virtual">DsFMapping::Extraction::IntensityExtraction</derivedcompoundref>
+    <includes refid="abstract__extraction_8h" local="no">abstract_extraction.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1ad7f998d9468e43ff774a6beaf4dfc23f" prot="public" static="no" mutable="no">
+        <type>ExtractionOptions</type>
+        <definition>ExtractionOptions DsFMapping::Extraction::AbstractExtraction::_options</definition>
+        <argsstring></argsstring>
+        <name>_options</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h" line="42" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a68bcaff6f876d7766cac70aa17fa7f79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::Extraction::AbstractExtraction::AbstractExtraction</definition>
+        <argsstring>()</argsstring>
+        <name>AbstractExtraction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h" line="36" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1ab6d8a5bd9f5cdc32d0e99adad640e068" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual DsFMapping::Extraction::AbstractExtraction::~AbstractExtraction</definition>
+        <argsstring>()=default</argsstring>
+        <name>~AbstractExtraction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a71e17ccb3acdf5d18898e9cf2565aaca" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool DsFMapping::Extraction::AbstractExtraction::Extract</definition>
+        <argsstring>(DsFMapping::Sensor::IntensityRange2D &amp;cloud, DsFMapping::Sensor::IntensityRange2D &amp;candidate_cloud)=0</argsstring>
+        <name>Extract</name>
+        <reimplementedby refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction_1a9680addfe14ac92409e590f61e7ada4b">Extract</reimplementedby>
+        <reimplementedby refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction_1adf7a6c2f213a90909221d1dbf553061d">Extract</reimplementedby>
+        <param>
+          <type>DsFMapping::Sensor::IntensityRange2D &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>DsFMapping::Sensor::IntensityRange2D &amp;</type>
+          <declname>candidate_cloud</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a592f0736b7de23a9e19dbf9082374059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DsFMapping::Extraction::AbstractExtraction::SetExtractionOptions</definition>
+        <argsstring>(const ExtractionOptions &amp;options)</argsstring>
+        <name>SetExtractionOptions</name>
+        <param>
+          <type>const ExtractionOptions &amp;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>this class is the abstract class following the AbstractFactory design pattern. </para>    </briefdescription>
+    <detaileddescription>
+<para>It can create feature extraction method based on a given ExtractionOptions. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="50">
+        <label>DsFMapping::Extraction::CornerExtraction</label>
+        <link refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>DsFMapping::Extraction::AbstractExtraction</label>
+        <link refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction"/>
+      </node>
+      <node id="51">
+        <label>DsFMapping::Extraction::IntensityExtraction</label>
+        <link refid="class_ds_f_mapping_1_1_extraction_1_1_intensity_extraction"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h" line="34" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h" bodystart="34" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1ad7f998d9468e43ff774a6beaf4dfc23f" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::AbstractExtraction</scope><name>_options</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a68bcaff6f876d7766cac70aa17fa7f79" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::AbstractExtraction</scope><name>AbstractExtraction</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a71e17ccb3acdf5d18898e9cf2565aaca" prot="public" virt="pure-virtual"><scope>DsFMapping::Extraction::AbstractExtraction</scope><name>Extract</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a592f0736b7de23a9e19dbf9082374059" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::AbstractExtraction</scope><name>SetExtractionOptions</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1ab6d8a5bd9f5cdc32d0e99adad640e068" prot="public" virt="virtual"><scope>DsFMapping::Extraction::AbstractExtraction</scope><name>~AbstractExtraction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_34ee59b8229f0542991e563412e99199" kind="dir">
+    <compoundname>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction</compoundname>
+    <innerdir refid="dir_a347627f5dfa74017cf9fd9be5c93f17">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction</innerdir>
+    <innerdir refid="dir_39746cfeb71ff47d2fc229564d873800">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction</innerdir>
+    <innerdir refid="dir_a3bc0047268be558caa20867f8608003">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface</innerdir>
+    <innerfile refid="extraction__factory_8h">extraction_factory.h</innerfile>
+    <innerfile refid="extraction__options__phrase_8h">extraction_options_phrase.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/"/>
+  </compounddef>
+</doxygen>

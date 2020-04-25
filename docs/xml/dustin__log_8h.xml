@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dustin__log_8h" kind="file" language="C++">
+    <compoundname>dustin_log.h</compoundname>
+    <includes local="no">glog/logging.h</includes>
+    <includedby refid="lua__param__dictionary_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h</includedby>
+    <includedby refid="factory_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h</includedby>
+    <includedby refid="abstract__extraction_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h</includedby>
+    <includedby refid="abstract__association_8h" local="yes">/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h</includedby>
+    <incdepgraph>
+      <node id="206">
+        <label>glog/logging.h</label>
+      </node>
+      <node id="205">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h</label>
+        <link refid="dustin_log.h"/>
+        <childnode refid="206" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="220">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/utils/factory.h</label>
+        <link refid="factory_8h_source"/>
+        <childnode refid="213" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+      </node>
+      <node id="216">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/interface/abstract_association.h</label>
+        <link refid="abstract__association_8h_source"/>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_factory.h</label>
+        <link refid="association__factory_8h_source"/>
+      </node>
+      <node id="218">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dbscan_association/dbscan_association.h</label>
+        <link refid="dbscan__association_8h_source"/>
+      </node>
+      <node id="213">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_factory.h</label>
+        <link refid="extraction__factory_8h_source"/>
+      </node>
+      <node id="211">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/interface/abstract_extraction.h</label>
+        <link refid="abstract__extraction_8h_source"/>
+        <childnode refid="212" relation="include">
+        </childnode>
+        <childnode refid="213" relation="include">
+        </childnode>
+        <childnode refid="214" relation="include">
+        </childnode>
+      </node>
+      <node id="207">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h</label>
+        <link refid="dustin_log.h"/>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="216" relation="include">
+        </childnode>
+      </node>
+      <node id="215">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/association_options_phrase.h</label>
+        <link refid="association__options__phrase_8h_source"/>
+      </node>
+      <node id="212">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h</label>
+        <link refid="corner__extraction_8h_source"/>
+      </node>
+      <node id="210">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/extraction_options_phrase.h</label>
+        <link refid="extraction__options__phrase_8h_source"/>
+      </node>
+      <node id="214">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/intensity_extraction/intensity_extraction.h</label>
+        <link refid="intensity__extraction_8h_source"/>
+      </node>
+      <node id="219">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/association/dsu_association/dsu_association.h</label>
+        <link refid="dsu__association_8h_source"/>
+      </node>
+      <node id="208">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h</label>
+        <link refid="lua__param__dictionary_8h"/>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="216" relation="include">
+        </childnode>
+      </node>
+      <node id="209">
+        <label>/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/config_file_resolver.h</label>
+        <link refid="config__file__resolver_8h"/>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="216" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="dustin__log_8h_1a61818a4c2cf85e96d77e6e46ca4ea853" prot="public" static="no">
+        <name>D_INFO</name>
+        <initializer>LOG(INFO)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" line="3" column="9" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dustin__log_8h_1a4ea9b180794130cfc4e36284bb09032d" prot="public" static="no">
+        <name>D_WARN</name>
+        <initializer>LOG(WARNING)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" line="4" column="9" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dustin__log_8h_1af25fefaf5c55ce92d41da370dc9399c2" prot="public" static="no">
+        <name>D_ERROR</name>
+        <initializer>LOG(ERROR)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" line="5" column="9" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dustin__log_8h_1ae9f358593b7632d052172d55065c945e" prot="public" static="no">
+        <name>D_FATAL</name>
+        <initializer>LOG(FATAL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" line="6" column="9" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dustin__log_8h_1a8790570c4564edde2f80426c7d9ab4d1" prot="public" static="no">
+        <name>BASHR</name>
+        <initializer>&quot;\033[0;31m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" line="9" column="9" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dustin__log_8h_1a5fcc98f62c2d28674ef1c02e76a4b184" prot="public" static="no">
+        <name>BASHG</name>
+        <initializer>&quot;\033[0;32m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" line="10" column="9" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dustin__log_8h_1acc3cc9f0cd777833c9a0bd5b612bf386" prot="public" static="no">
+        <name>BASHY</name>
+        <initializer>&quot;\033[0;33m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" line="11" column="9" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dustin__log_8h_1a73ae3d8f3eb742c21f5c5ba9fe446cc9" prot="public" static="no">
+        <name>BASHB</name>
+        <initializer>&quot;\033[0;34m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" line="12" column="9" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dustin__log_8h_1a2d051caf21ccab9490503a57f3364472" prot="public" static="no">
+        <name>BASHW</name>
+        <initializer>&quot;\033[1;0m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" line="13" column="9" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dustin__log_8h_1a26c26693139d45b783d2290be2f00c35" prot="public" static="no">
+        <name>PARAM_LOG</name>
+        <param><defname>PARAM_NAME</defname></param>
+        <initializer>D_INFO &lt;&lt; BASHB &lt;&lt; &quot;[&quot; &lt;&lt; #PARAM_NAME &lt;&lt; &quot;] &quot; &lt;&lt; BASHW</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" line="15" column="9" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;glog/logging.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>D_INFO<sp/>LOG(INFO)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>D_WARN<sp/>LOG(WARNING)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>D_ERROR<sp/>LOG(ERROR)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>D_FATAL<sp/>LOG(FATAL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BASHR<sp/>&quot;\033[0;31m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BASHG<sp/>&quot;\033[0;32m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BASHY<sp/>&quot;\033[0;33m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BASHB<sp/>&quot;\033[0;34m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BASHW<sp/>&quot;\033[1;0m&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PARAM_LOG(PARAM_NAME)<sp/>D_INFO<sp/>&lt;&lt;<sp/>BASHB<sp/>&lt;&lt;<sp/>&quot;[&quot;<sp/>&lt;&lt;<sp/>#PARAM_NAME<sp/>&lt;&lt;<sp/>&quot;]<sp/>&quot;<sp/>&lt;&lt;<sp/>BASHW<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CLASS_LOG(PARAM_NAME)<sp/>D_INFO<sp/>&lt;&lt;<sp/>BASHG<sp/>&lt;&lt;<sp/>&quot;[&quot;<sp/>&lt;&lt;<sp/>#PARAM_NAME<sp/>&lt;&lt;<sp/>&quot;]<sp/>&quot;<sp/>&lt;&lt;<sp/>BASHW<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/dustin_log.h"/>
+  </compounddef>
+</doxygen>

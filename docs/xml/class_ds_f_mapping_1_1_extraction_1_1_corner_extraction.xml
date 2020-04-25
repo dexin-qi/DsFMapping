@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction" kind="class" language="C++" prot="public">
+    <compoundname>DsFMapping::Extraction::CornerExtraction</compoundname>
+    <basecompoundref refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction" prot="public" virt="non-virtual">DsFMapping::Extraction::AbstractExtraction</basecompoundref>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction_1a95e81e686edf45fef1c30a38c2521d2d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class ExtractionFactory</definition>
+        <argsstring></argsstring>
+        <name>ExtractionFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h" line="36" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction_1a9680addfe14ac92409e590f61e7ada4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool DsFMapping::Extraction::CornerExtraction::Extract</definition>
+        <argsstring>(DsFMapping::Sensor::IntensityRange2D &amp;cloud, DsFMapping::Sensor::IntensityRange2D &amp;candidate_cloud)</argsstring>
+        <name>Extract</name>
+        <reimplements refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a71e17ccb3acdf5d18898e9cf2565aaca">Extract</reimplements>
+        <param>
+          <type>DsFMapping::Sensor::IntensityRange2D &amp;</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>DsFMapping::Sensor::IntensityRange2D &amp;</type>
+          <declname>candidate_cloud</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h" line="27" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction_1a4aeca3fbfcb9b9d160a22fedf3fb1e32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::Extraction::CornerExtraction::~CornerExtraction</definition>
+        <argsstring>()</argsstring>
+        <name>~CornerExtraction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h" line="31" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h" bodystart="31" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction_1a75d1e8a47397c0efae7f139eedb3c668" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::Extraction::CornerExtraction::CornerExtraction</definition>
+        <argsstring>()</argsstring>
+        <name>CornerExtraction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h" line="37" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h" bodystart="37" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="61">
+        <label>DsFMapping::Extraction::CornerExtraction</label>
+        <link refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>DsFMapping::Extraction::AbstractExtraction</label>
+        <link refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="63">
+        <label>DsFMapping::Extraction::CornerExtraction</label>
+        <link refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>DsFMapping::Extraction::AbstractExtraction</label>
+        <link refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h" line="25" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/extraction/corner_extraction/corner_extraction.h" bodystart="25" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1ad7f998d9468e43ff774a6beaf4dfc23f" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::CornerExtraction</scope><name>_options</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a68bcaff6f876d7766cac70aa17fa7f79" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::CornerExtraction</scope><name>AbstractExtraction</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction_1a75d1e8a47397c0efae7f139eedb3c668" prot="private" virt="non-virtual"><scope>DsFMapping::Extraction::CornerExtraction</scope><name>CornerExtraction</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction_1a9680addfe14ac92409e590f61e7ada4b" prot="public" virt="virtual"><scope>DsFMapping::Extraction::CornerExtraction</scope><name>Extract</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction_1a95e81e686edf45fef1c30a38c2521d2d" prot="private" virt="non-virtual"><scope>DsFMapping::Extraction::CornerExtraction</scope><name>ExtractionFactory</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1a592f0736b7de23a9e19dbf9082374059" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::CornerExtraction</scope><name>SetExtractionOptions</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_abstract_extraction_1ab6d8a5bd9f5cdc32d0e99adad640e068" prot="public" virt="virtual"><scope>DsFMapping::Extraction::CornerExtraction</scope><name>~AbstractExtraction</name></member>
+      <member refid="class_ds_f_mapping_1_1_extraction_1_1_corner_extraction_1a4aeca3fbfcb9b9d160a22fedf3fb1e32" prot="public" virt="non-virtual"><scope>DsFMapping::Extraction::CornerExtraction</scope><name>~CornerExtraction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

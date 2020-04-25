@@ -1,0 +1,681 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kind="class" language="C++" prot="public">
+    <compoundname>DsFMapping::common::LuaParameterDictionary</compoundname>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1e1753d8e10ade373a114d44ef13ce5d" prot="private" static="no">
+        <name>ReferenceCount</name>
+        <enumvalue id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1e1753d8e10ade373a114d44ef13ce5da7469a286259799e5b37e5db9296f00b3" prot="private">
+          <name>YES</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1e1753d8e10ade373a114d44ef13ce5dac2f3f489a00553e7a01d369c103c7251" prot="private">
+          <name>NO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="77" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a14a786698eb0f284767d6c28d2c52b20" prot="private" static="no">
+        <name>Quoted</name>
+        <enumvalue id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a14a786698eb0f284767d6c28d2c52b20a7469a286259799e5b37e5db9296f00b3" prot="private">
+          <name>YES</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a14a786698eb0f284767d6c28d2c52b20ac2f3f489a00553e7a01d369c103c7251" prot="private">
+          <name>NO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="97" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" bodystart="97" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aff8fb06dcaa9419f5e2e4be4c1a5371e" prot="private" static="no" mutable="no">
+        <type>lua_State *</type>
+        <definition>lua_State* DsFMapping::common::LuaParameterDictionary::L_</definition>
+        <argsstring></argsstring>
+        <name>L_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="122" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ad7de958be8de528f7b7b84f90cc3d395" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DsFMapping::common::LuaParameterDictionary::index_into_reference_table_</definition>
+        <argsstring></argsstring>
+        <name>index_into_reference_table_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="123" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a106d5795702fadf579679a9a6fb32201" prot="private" static="no" mutable="no">
+        <type>const std::shared_ptr&lt; <ref refid="class_ds_f_mapping_1_1common_1_1_file_resolver" kindref="compound">FileResolver</ref> &gt;</type>
+        <definition>const std::shared_ptr&lt;FileResolver&gt; DsFMapping::common::LuaParameterDictionary::file_resolver_</definition>
+        <argsstring></argsstring>
+        <name>file_resolver_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="126" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1e2049aea42324cec669e269459589b5" prot="private" static="no" mutable="no">
+        <type>const ReferenceCount</type>
+        <definition>const ReferenceCount DsFMapping::common::LuaParameterDictionary::reference_count_</definition>
+        <argsstring></argsstring>
+        <name>reference_count_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="129" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ac5ccfeddf7a347499af110e59011cfa6" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, int &gt;</type>
+        <definition>std::map&lt;std::string, int&gt; DsFMapping::common::LuaParameterDictionary::reference_counts_</definition>
+        <argsstring></argsstring>
+        <name>reference_counts_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="133" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a7654d411270c3ec45d7e2f9faee2edbc" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; DsFMapping::common::LuaParameterDictionary::included_files_</definition>
+        <argsstring></argsstring>
+        <name>included_files_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="137" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aa1891e7d555a6d7943f436bde61b0322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::common::LuaParameterDictionary::LuaParameterDictionary</definition>
+        <argsstring>(const std::string &amp;code, std::unique_ptr&lt; FileResolver &gt; file_resolver)</argsstring>
+        <name>LuaParameterDictionary</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>std::unique_ptr&lt; <ref refid="class_ds_f_mapping_1_1common_1_1_file_resolver" kindref="compound">FileResolver</ref> &gt;</type>
+          <declname>file_resolver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a53a6e61da844c7d375ef0302fc9d783b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::common::LuaParameterDictionary::LuaParameterDictionary</definition>
+        <argsstring>(const LuaParameterDictionary &amp;)=delete</argsstring>
+        <name>LuaParameterDictionary</name>
+        <param>
+          <type>const <ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1812035c6c9e9c3207ef7deb226a91b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref> &amp;</type>
+        <definition>LuaParameterDictionary&amp; DsFMapping::common::LuaParameterDictionary::operator=</definition>
+        <argsstring>(const LuaParameterDictionary &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1abf5198474a1ee474ddb50af26b3098c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::common::LuaParameterDictionary::~LuaParameterDictionary</definition>
+        <argsstring>()</argsstring>
+        <name>~LuaParameterDictionary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ae6a9db06903fad076dceb2781f1b64b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; DsFMapping::common::LuaParameterDictionary::GetKeys</definition>
+        <argsstring>() const </argsstring>
+        <name>GetKeys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a67f483091adaaed0ca8e597274e541fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DsFMapping::common::LuaParameterDictionary::HasKey</definition>
+        <argsstring>(const std::string &amp;key) const </argsstring>
+        <name>HasKey</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aeed0730d4707c10b323dd17f5a03f92a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string DsFMapping::common::LuaParameterDictionary::GetString</definition>
+        <argsstring>(const std::string &amp;key)</argsstring>
+        <name>GetString</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a0ffef7564d6fed52af0bda58d9581947" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DsFMapping::common::LuaParameterDictionary::GetDouble</definition>
+        <argsstring>(const std::string &amp;key)</argsstring>
+        <name>GetDouble</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1e95ca292a160813006bff90ef900d46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DsFMapping::common::LuaParameterDictionary::GetInt</definition>
+        <argsstring>(const std::string &amp;key)</argsstring>
+        <name>GetInt</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a4a2afb0a8c315871ba108bde0d31ef85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DsFMapping::common::LuaParameterDictionary::GetBool</definition>
+        <argsstring>(const std::string &amp;key)</argsstring>
+        <name>GetBool</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a153b382e0281f93637ac2a8009894299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;LuaParameterDictionary&gt; DsFMapping::common::LuaParameterDictionary::GetDictionary</definition>
+        <argsstring>(const std::string &amp;key)</argsstring>
+        <name>GetDictionary</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a32b12d780af598b89951f79ee920b94b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DsFMapping::common::LuaParameterDictionary::GetNonNegativeInt</definition>
+        <argsstring>(const std::string &amp;key)</argsstring>
+        <name>GetNonNegativeInt</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aad501e5dfe9df163650ec2c4e0b3c3cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string DsFMapping::common::LuaParameterDictionary::ToString</definition>
+        <argsstring>() const </argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1abd041813fc1c2330a00925d30cc1546e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; DsFMapping::common::LuaParameterDictionary::GetArrayValuesAsDoubles</definition>
+        <argsstring>()</argsstring>
+        <name>GetArrayValuesAsDoubles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a0963bcbe234c6e57497ee22366c55c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; DsFMapping::common::LuaParameterDictionary::GetArrayValuesAsStrings</definition>
+        <argsstring>()</argsstring>
+        <name>GetArrayValuesAsStrings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a0746602257b8f58a9c52194cdb0f66f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::unique_ptr&lt; <ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::unique_ptr&lt;LuaParameterDictionary&gt; &gt; DsFMapping::common::LuaParameterDictionary::GetArrayValuesAsDictionaries</definition>
+        <argsstring>()</argsstring>
+        <name>GetArrayValuesAsDictionaries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="74" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aafea535986f6dc03d7d6c4af02061986" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref> &gt;</type>
+        <definition>static std::unique_ptr&lt;LuaParameterDictionary&gt; DsFMapping::common::LuaParameterDictionary::NonReferenceCounted</definition>
+        <argsstring>(const std::string &amp;code, std::unique_ptr&lt; FileResolver &gt; file_resolver)</argsstring>
+        <name>NonReferenceCounted</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>std::unique_ptr&lt; <ref refid="class_ds_f_mapping_1_1common_1_1_file_resolver" kindref="compound">FileResolver</ref> &gt;</type>
+          <declname>file_resolver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="46" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ae9dd34db3d792aee758516f07de51ca1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::common::LuaParameterDictionary::LuaParameterDictionary</definition>
+        <argsstring>(const std::string &amp;code, ReferenceCount reference_count, std::unique_ptr&lt; FileResolver &gt; file_resolver)</argsstring>
+        <name>LuaParameterDictionary</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>ReferenceCount</type>
+          <declname>reference_count</declname>
+        </param>
+        <param>
+          <type>std::unique_ptr&lt; <ref refid="class_ds_f_mapping_1_1common_1_1_file_resolver" kindref="compound">FileResolver</ref> &gt;</type>
+          <declname>file_resolver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a0fb8121912f16554c37cc81d41d7be82" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DsFMapping::common::LuaParameterDictionary::LuaParameterDictionary</definition>
+        <argsstring>(lua_State *L, ReferenceCount reference_count, std::shared_ptr&lt; FileResolver &gt; file_resolver)</argsstring>
+        <name>LuaParameterDictionary</name>
+        <param>
+          <type>lua_State *</type>
+          <declname>L</declname>
+        </param>
+        <param>
+          <type>ReferenceCount</type>
+          <declname>reference_count</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_ds_f_mapping_1_1common_1_1_file_resolver" kindref="compound">FileResolver</ref> &gt;</type>
+          <declname>file_resolver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a54a2cc324f2a5fe8a578d2be45d6dcbb" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string DsFMapping::common::LuaParameterDictionary::DoToString</definition>
+        <argsstring>(const std::string &amp;indent) const </argsstring>
+        <name>DoToString</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>indent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1abda55fd000ec4ad29f9ae9ec833f3c0b" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DsFMapping::common::LuaParameterDictionary::PopDouble</definition>
+        <argsstring>() const </argsstring>
+        <name>PopDouble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a60f87ecbe231baabe786b2f4ef5884c1" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DsFMapping::common::LuaParameterDictionary::PopInt</definition>
+        <argsstring>() const </argsstring>
+        <name>PopInt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ae4ba57a5a42718f746ee7f48ea663da3" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DsFMapping::common::LuaParameterDictionary::PopBool</definition>
+        <argsstring>() const </argsstring>
+        <name>PopBool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a379f2c67bdc685e0d728eb365dc0d757" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string DsFMapping::common::LuaParameterDictionary::PopString</definition>
+        <argsstring>(Quoted quoted) const </argsstring>
+        <name>PopString</name>
+        <param>
+          <type>Quoted</type>
+          <declname>quoted</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1acb4525ce57992d48b2a3cdbaa781b976" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::unique_ptr&lt; <ref refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary" kindref="compound">LuaParameterDictionary</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;LuaParameterDictionary&gt; DsFMapping::common::LuaParameterDictionary::PopDictionary</definition>
+        <argsstring>(ReferenceCount reference_count) const </argsstring>
+        <name>PopDictionary</name>
+        <param>
+          <type>ReferenceCount</type>
+          <declname>reference_count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aebfa9ed169edc01f3217349fe0051be0" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DsFMapping::common::LuaParameterDictionary::CheckHasKey</definition>
+        <argsstring>(const std::string &amp;key) const </argsstring>
+        <name>CheckHasKey</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="106" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a80aacf6a9c2c14173a4cf4e60b7af19d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DsFMapping::common::LuaParameterDictionary::CheckHasKeyAndReference</definition>
+        <argsstring>(const std::string &amp;key)</argsstring>
+        <name>CheckHasKeyAndReference</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="109" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aad6ee3ff597e311d6d4d731039ee661c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DsFMapping::common::LuaParameterDictionary::CheckAllKeysWereUsedExactlyOnceAndReset</definition>
+        <argsstring>()</argsstring>
+        <name>CheckAllKeysWereUsedExactlyOnceAndReset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="114" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a028610bb6be8a9a57eb1c3025771cef3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DsFMapping::common::LuaParameterDictionary::LuaRead</definition>
+        <argsstring>(lua_State *L)</argsstring>
+        <name>LuaRead</name>
+        <param>
+          <type>lua_State *</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ab40b4c52cd9e192d8814a11cbfb584e0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DsFMapping::common::LuaParameterDictionary::LuaInclude</definition>
+        <argsstring>(lua_State *L)</argsstring>
+        <name>LuaInclude</name>
+        <param>
+          <type>lua_State *</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="120" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" line="36" column="1" bodyfile="/home/dexin/code/space_ros/venus_ws/DsFMapping/dsfmapping/common/lua_param_dictionary.h" bodystart="36" bodyend="138"/>
+    <listofallmembers>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aad6ee3ff597e311d6d4d731039ee661c" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>CheckAllKeysWereUsedExactlyOnceAndReset</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aebfa9ed169edc01f3217349fe0051be0" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>CheckHasKey</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a80aacf6a9c2c14173a4cf4e60b7af19d" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>CheckHasKeyAndReference</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a54a2cc324f2a5fe8a578d2be45d6dcbb" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>DoToString</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a106d5795702fadf579679a9a6fb32201" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>file_resolver_</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a0746602257b8f58a9c52194cdb0f66f6" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>GetArrayValuesAsDictionaries</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1abd041813fc1c2330a00925d30cc1546e" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>GetArrayValuesAsDoubles</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a0963bcbe234c6e57497ee22366c55c56" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>GetArrayValuesAsStrings</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a4a2afb0a8c315871ba108bde0d31ef85" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>GetBool</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a153b382e0281f93637ac2a8009894299" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>GetDictionary</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a0ffef7564d6fed52af0bda58d9581947" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>GetDouble</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1e95ca292a160813006bff90ef900d46" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>GetInt</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ae6a9db06903fad076dceb2781f1b64b6" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>GetKeys</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a32b12d780af598b89951f79ee920b94b" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>GetNonNegativeInt</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aeed0730d4707c10b323dd17f5a03f92a" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>GetString</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a67f483091adaaed0ca8e597274e541fd" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>HasKey</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a7654d411270c3ec45d7e2f9faee2edbc" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>included_files_</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ad7de958be8de528f7b7b84f90cc3d395" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>index_into_reference_table_</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aff8fb06dcaa9419f5e2e4be4c1a5371e" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>L_</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ab40b4c52cd9e192d8814a11cbfb584e0" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>LuaInclude</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aa1891e7d555a6d7943f436bde61b0322" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>LuaParameterDictionary</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a53a6e61da844c7d375ef0302fc9d783b" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>LuaParameterDictionary</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ae9dd34db3d792aee758516f07de51ca1" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>LuaParameterDictionary</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a0fb8121912f16554c37cc81d41d7be82" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>LuaParameterDictionary</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a028610bb6be8a9a57eb1c3025771cef3" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>LuaRead</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aafea535986f6dc03d7d6c4af02061986" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>NonReferenceCounted</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1812035c6c9e9c3207ef7deb226a91b4" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>operator=</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ae4ba57a5a42718f746ee7f48ea663da3" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>PopBool</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1acb4525ce57992d48b2a3cdbaa781b976" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>PopDictionary</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1abda55fd000ec4ad29f9ae9ec833f3c0b" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>PopDouble</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a60f87ecbe231baabe786b2f4ef5884c1" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>PopInt</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a379f2c67bdc685e0d728eb365dc0d757" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>PopString</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a14a786698eb0f284767d6c28d2c52b20" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>Quoted</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1e2049aea42324cec669e269459589b5" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>reference_count_</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1ac5ccfeddf7a347499af110e59011cfa6" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>reference_counts_</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1a1e1753d8e10ade373a114d44ef13ce5d" prot="private" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>ReferenceCount</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1aad501e5dfe9df163650ec2c4e0b3c3cc" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>ToString</name></member>
+      <member refid="class_ds_f_mapping_1_1common_1_1_lua_parameter_dictionary_1abf5198474a1ee474ddb50af26b3098c7" prot="public" virt="non-virtual"><scope>DsFMapping::common::LuaParameterDictionary</scope><name>~LuaParameterDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

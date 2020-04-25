@@ -7,21 +7,21 @@
     "doc": "docs"
   },
   "dependencies": {
-    "commitizen": "^4.0.4"
+    "commitizen": "^4.0.4",
+    "conventional-changelog": "^3.1.18"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.1.0"
   },
   "scripts": {
-    "test": "none"
+    "changelog": "conventional-changelog -p angular -i ChangeLog.md -w -r 0"
   },
   "repository": {
     "type": "git",
     "url": "git@gitee.com:dustinksi/DsFMapping.git"
   },
   "keywords": [
-    "Dense",
-    "Feature",
+    "Dense Feature",
     "Mapping"
   ],
   "author": "DustinKsi",
@@ -30,8 +30,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "scripts": {
-    "changelog": "conventional-changelog -p angular -i ChangeLog.md -w -r 0"
   }
 }
