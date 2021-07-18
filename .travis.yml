@@ -22,7 +22,7 @@ addons:
     
 
 install:
-    - pip3 install sphinx=3.5.3 breathe sphinx-autobuild sphinx_rtd_theme recommonmark sphinx-markdown-tables
+    - pip3 install sphinx==3.5.3 breathe sphinx-autobuild sphinx_rtd_theme recommonmark sphinx-markdown-tables
     - pip3 install travis-sphinx
 
 script:
